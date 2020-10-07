@@ -138,16 +138,19 @@ This section describes the UX process of this Project.
    *    The Website structure or any addition in section can be achieved easily. All the coding is clearly marked withe comments for a particular section of the website. An industry standard framework is used to develope this website.
 
 ###    Skeleton Plane
-   I have laid out the skeleton plane for a user to clearly understands the information and move around upon that information. Everthing is organised in a harmonious way for a user to navigate the website easily. I have Used XD [Wireframes](#Wireframes) to achieve the presention of all the elements of skeleton Plane
+   I have laid out the skeleton plane for a user to clearly understands the information and move around upon that information. Everthing is organised in a harmonious way for a user to navigate the website easily. I have Used XD Wireframes to achieve the presention of all the elements of skeleton Plane
    *    The Placement of Buttons, Images, Icons, Headings and text is placed accordingly.
    *    All the Elements and their functionality is easily accessible by a user of the website.
    *    The navigation system clearly indicates a user how to move around the website.
    *    The information given on the Website in the form of Text blocks, images or icons clearliy helps an easy user interaction.
    *    The wireframing is the most important element of the Skeleton plane. 
-   Please [Click](#wireframes) to see the Wireframes of the website.
+   Please see the Wireframes below.
 
-   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/desktop-laptop-tablet.jpg)
+###  Mobile Version
    ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/mobile.jpg)
+
+###  Desktop-Laptop-Mobile Version 
+   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/desktop-laptop-tablet.jpg)
 
 
 
