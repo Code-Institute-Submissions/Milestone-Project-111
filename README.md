@@ -24,6 +24,8 @@
 
 *   [Technologies Used](#Technologies-used)
 
+*   [Other Resources](#Other-Resources)
+
 *   [Testing](#Testing)
 
     *   [Testing User Stories](#Testing-User-Stories)
@@ -173,3 +175,57 @@ This section describes the UX process of this Project.
             *   Default Font: sans-serif
 
 ###     **Features**     
+   The Project is a one page Website with six sections. 
+   *    The website has a sticky Navbar with with six Nav items all anchored to their respective sections. The navbar behaves differently on the different screen sizes. A hamburger icon is delployed on mobile devices.
+   *    The website has a hero Carousel with the slides. It includes a Heading, corresponding text and a button.
+   *    The next section is a team Section. It has a heading and corresponding text and below with the Team image and Team members names side by side.
+   *    The next section is Facilities Section. It has a heading and a corresponding text and nine images describing the facilities in the Gym.
+   *    The next section is Classes Section. A Bootstrap table is deployed in this section with Days, Time, Class and Trainer information.
+   *    The next section is Subscription Section. it has a heading and a corrosponding text with three Subscription cards with an image as a background and showing the fee structure. Every card has join button.
+   *    The next section is Contact Us . Is has a form with a background image. It also has a Name, email field, type of query radio button, with a message field and Send button.
+   *    At the bottom is the footer with top and bottom parts. Top parts has four colums with About Us information, Timings, Need Help with address, email and phone number. The last colums has social media icons.
+   *    The bottom part of the footer shows the copyright text with developers's name.
+
+###     Features to implement in future
+
+   *    Online class booking interface.
+   *    Online Personal training Session booking.
+   *    Online Payment System.
+
+###     **Technologies Used**
+   Different Technologies have been used in this project as stated below.
+   *    HTML5           
+         * The language is used to create the content of the website.
+
+   *    CSS3           
+         * It used to style the HTML5 content.
+
+   *    Bootstrap      
+         * Bootstrap version 4.5.2 is used as a framework for the responsiveness of the website on different screen sizes. And also different Bootstrap elements are used.
+
+   *    JavaScript      
+        * JavaScript is used for NavBar Menu items active class and the hamburger icon.
+
+   *    Gitpod          
+        * Gitpod is used to code the website.
+
+   *    Git Version Control
+        * Git Version Control is used to update the files and folders and any other changes.
+    
+   *    GitHub
+         * GitHub is used to create a reposatory, to host the website and sharing the code with fellow coders.
+
+   *   Adobe XD
+         * Adobe XD is used to create the wireframes.
+    
+   *   Adobe Photoshop
+         * Adobe Photoshop is used to resize and optimize the images and photos for web.
+    
+###     **Other Resources**
+  
+   *   [GoogleFonts](https://fonts.google.com/)
+   *   [FontAwesome](https://fontawesome.com/)
+   *   [Unsplash](https://unsplash.com/)
+   *   [Pngtree](https://pngtree.com/)
+   *   [W3schools](https://www.w3schools.com/)
+   *   [StackOverFlow](https://stackoverflow.com/)  
