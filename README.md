@@ -147,7 +147,7 @@ This section describes the UX process of this Project.
    Please see the Wireframes below.
 
 ###  Mobile Version
-   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/mobile.jpg  
+   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/mobile.jpg)  
 ### Desktop-Laptop-Mobile Version 
    ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/desktop-laptop-tablet.jpg)
 
