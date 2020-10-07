@@ -146,7 +146,8 @@ This section describes the UX process of this Project.
    *    The wireframing is the most important element of the Skeleton plane. 
    Please [Click](#wireframes) to see the Wireframes of the website.
 
-   ![Desktop-Tablet-Wireframe]()
+   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/desktop-laptop-tablet.jpg)
+   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/mobile.jpg)
 
 
 
