@@ -258,7 +258,15 @@ transform:translate(0, -50%);
     overflow: hidden;
 }
 .classes-list{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+.classes-list li{
     list-style-type: none;
+        
 }
 .table-head{
     font-family: "Merriweather" , sans-serif;
@@ -362,7 +370,7 @@ transform:translate(0, -50%);
 /* End of membership */
 /* Media Queries */
 
-@media screen and (max-width:1024px){
+@media screen and (min-device-width:922px) and (max-device-width:1242px) {
     .name-1,
     .name-2,
     .name-3,
@@ -370,6 +378,28 @@ transform:translate(0, -50%);
         font-size:1.3rem;  
         letter-spacing: .2rem;
     }
+    .membership-card-heading{
+         font-size: .8rem;
+     }
+     .membership-card-item{
+         font-size: .6rem;
+     }
+}
+@media screen and (min-device-width:603px) and (max-device-width:922px){
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+         font-size:.8rem;  
+         letter-spacing: .1rem;
+     }
+    .team-image{
+          width:100% ;
+          height: 400px;
+          object-fit: cover;
+          object-position: center center;
+   
+}
 }
  @media screen and (max-width:602px){
     .nav-menu{
@@ -390,14 +420,22 @@ transform:translate(0, -50%);
    
 }
  .classes-table th{
-         font-size: .7rem;
+         font-size: 1rem;
      }
      .classes-list li{
-         font-size: .5rem;
+         font-size: .9rem;
+     }
+ }
+ @media screen and (min-device-width: 464px) and (max-device-width: 511px) {
+     .classes-table th{
+         font-size: .9rem;
+     }
+     .classes-list li{
+         font-size: .7rem;
      }
  }
  
- @media screen and (min-device-width: 416px) and (max-device-width: 463px) {
+ @media screen and (min-device-width: 441px) and (max-device-width: 463px) {
     .nav-menu{
          background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, .7)); 
         }
@@ -432,16 +470,25 @@ transform:translate(0, -50%);
          font-size: 1.5rem;
      }
      .classes-table th{
-         font-size: .5rem;
+         font-size: .9rem;
      }
      .classes-list li{
-         font-size: .3rem;
+         font-size: .7rem;
      }
      .membership-title{
          font-size: 1.5rem
      }
  }
-@media screen and (min-device-width: 280px) and (max-device-width: 415px) {
+ @media screen and (min-device-width: 376px) and (max-device-width: 441px) {
+     .classes-table th{
+         font-size: .7rem;
+     }
+     .classes-list li{
+         font-size: .5rem;
+     }
+ }
+
+@media screen and (min-device-width: 360px) and (max-device-width: 375px) {
     .team-title{
          font-size: 1.5rem;
      }
@@ -461,10 +508,10 @@ transform:translate(0, -50%);
          font-size: .7rem;
      }
     .classes-table th{
-         font-size: .3rem;
+         font-size: .5rem;
      }
      .classes-list li{
-         font-size: .3rem;
+         font-size: .4rem;
      }
     .membership-title{
          font-size: 1.5rem
@@ -478,4 +525,129 @@ transform:translate(0, -50%);
      .membership-card-item{
          font-size: .8rem;
      }
+}
+@media screen and (min-device-width: 316px) and (max-device-width: 359px){
+    .team-title{
+         font-size: 1.5rem;
+     }
+     .team-par{
+         font-size: .7rem;
+     }
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+         font-size:.6rem;  
+         letter-spacing: .1rem;
+     }
+    .team-image{
+          width:100% ;
+          height: 400px;
+          object-fit: cover;
+          object-position: center center; 
+}
+      .facilities-title{
+         font-size: 1.5rem;
+     }
+    .facilities-par{
+         font-size: .7rem;
+     }
+     .classes-title{
+         font-size: 1.5rem;
+     }
+     .classes-par{
+         font-size: .7rem;
+     }
+    .classes-table th{
+         font-size: .4rem;
+     }
+     .classes-list li{
+         font-size: .3rem;
+     }
+    .membership-title{
+         font-size: 1.5rem
+     }
+     .membership-par{
+         font-size: .7rem;
+     }
+     .membership-card-heading{
+         font-size: .6rem;
+     }
+     .membership-card-item{
+         font-size: .4rem;
+     }
+
+}
+@media screen and (min-device-width: 280px) and (max-device-width: 315px){
+    .team-title{
+         font-size: 1rem;
+     }
+     .team-par{
+         font-size: .5rem;
+     }
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+         font-size:.4rem;  
+         letter-spacing: .1rem;
+     }
+    .team-image{
+          width:100% ;
+          height: 400px;
+          object-fit: cover;
+          object-position: center center; 
+}
+      .facilities-title{
+         font-size: 1rem;
+     }
+    .facilities-par{
+         font-size: .5rem;
+     }
+     .classes-title{
+         font-size: 1rem;
+     }
+     .classes-par{
+         font-size: .5rem;
+     }
+    .classes-table th{
+         font-size: 4px;
+     }
+     .classes-list li{
+         font-size: 4px;
+     }
+    .membership-title{
+         font-size: 1rem
+     }
+     .membership-par{
+         font-size: .5rem;
+     }
+     .membership-card-heading{
+         font-size: .6rem;
+     }
+     .membership-card-item{
+         font-size: .4rem;
+     }
+    .membership-card-button{
+    background: tomato;
+    font-size: .9rem;
+    color:#fff;
+    width: 6rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 18px #000;
+    text-shadow: 1px 1px #000;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
+.membership-card-button:hover{
+    background-color: orangered;
+    color:antiquewhite;
+    transform: translateY(-2px);
+}
+.membership-card-button:focus{
+    border: transparent;
+    outline: none;
+    box-shadow: none;
+}    
+
 }
