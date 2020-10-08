@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding:0;
-    font-family: "Raleway" , sans-serif;
+    /* font-family: "Raleway" , sans-serif; */
 }
 
 /* navbar */
@@ -234,6 +234,132 @@ transform:translate(0, -50%);
     cursor: pointer;
 }
 /* End of facilities */
+/* Classes */
+.classes{
+    background:#1b1b1b;
+}
+.classes-title{
+    font-family: "Merriweather" , sans-serif;
+    color: tomato;
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    text-shadow: 2px 2px #000;
+}
+.classes-underline{
+    border-bottom: .1rem solid rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+}
+.classes-par{
+    color: antiquewhite
+}
+.classes-table{
+    box-shadow: 2px 3px 10px #000;
+    overflow: hidden;
+}
+.classes-list{
+    list-style-type: none;
+}
+.table-head{
+    font-family: "Merriweather" , sans-serif;
+    color: tomato;
+    text-shadow: 1px 1px #000;
+}
+.table-day{
+    font-family: "Merriweather" , sans-serif;
+    color: antiquewhite;
+    text-shadow: 1px 1px #000
+}
+/* End of Classes */
+/* Membership */
+.membership{
+    background:#1b1b1b;  
+}
+.membership-title{
+    font-family: "Merriweather" , sans-serif;
+    color: tomato;
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    text-shadow: 2px 2px #000;
+}
+.membership-underline{
+    border-bottom: .1rem solid rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+}
+ .membership-par{
+    color: antiquewhite
+}
+.membership-card-1{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage1.jpg) no-repeat center /cover;
+    box-shadow:5px 8px 20px #000; 
+    color: white;
+}
+.membership-card-2{
+    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage2.jpg) no-repeat center /cover;
+    box-shadow:5px 8px 20px #000; 
+    color: white;
+}
+.membership-card-3{
+    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage3.jpg) no-repeat center /cover;
+    box-shadow:5px 8px 20px #000; 
+    color: white;
+}
+.membership-card-heading{
+    font-family: "Merriweather" , sans-serif;
+    color: tomato;
+    letter-spacing: .1rem;
+    box-shadow: 2px 3px 10px #000;
+    padding: .4rem 0;
+    text-shadow: 2px 2px #000;
+}
+.membership-fee{
+    font-family: "Merriweather" , sans-serif;
+    color: antiquewhite;
+    text-shadow: 2px 2px #000;
+}
+.membership-card-item{
+    border-bottom: 1px groove #eee;
+    width: 50%;
+    margin: auto;
+}
+.membership-card-button{
+    background: tomato;
+    font-size: 1.1rem;
+    color:#fff;
+    width: 8rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 18px #000;
+    text-shadow: 1px 1px #000;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
+.membership-card-button:hover{
+    background-color: orangered;
+    color:antiquewhite;
+    transform: translateY(-2px);
+}
+.membership-card-button:focus{
+    border: transparent;
+    outline: none;
+    box-shadow: none;
+}
+.membership-package{
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 0;
+    transition: all .5s;
+}
+.membership-package:focus{
+    background: transparent;
+    border: transparent;
+    border-bottom: 2px solid tomato;
+    color: antiquewhite;
+    outline: none;
+    box-shadow: none;
+}
+/* End of membership */
 /* Media Queries */
 
 @media screen and (max-width:1024px){
@@ -245,7 +371,7 @@ transform:translate(0, -50%);
         letter-spacing: .2rem;
     }
 }
- @media screen and (max-width:530px){
+ @media screen and (max-width:602px){
     .nav-menu{
         background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, .7)); 
     }
@@ -263,8 +389,15 @@ transform:translate(0, -50%);
           object-position: center center;
    
 }
+ .classes-table th{
+         font-size: .7rem;
+     }
+     .classes-list li{
+         font-size: .5rem;
+     }
  }
- @media screen and (max-width:350px){
+ 
+ @media screen and (min-device-width: 416px) and (max-device-width: 463px) {
     .nav-menu{
          background: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, .7)); 
         }
@@ -295,4 +428,54 @@ transform:translate(0, -50%);
     .facilities-par{
          font-size: .7rem;
      }
+     .classes-title{
+         font-size: 1.5rem;
+     }
+     .classes-table th{
+         font-size: .5rem;
+     }
+     .classes-list li{
+         font-size: .3rem;
+     }
+     .membership-title{
+         font-size: 1.5rem
+     }
  }
+@media screen and (min-device-width: 280px) and (max-device-width: 415px) {
+    .team-title{
+         font-size: 1.5rem;
+     }
+     .team-par{
+         font-size: .7rem;
+     }
+      .facilities-title{
+         font-size: 1.5rem;
+     }
+    .facilities-par{
+         font-size: .7rem;
+     }
+     .classes-title{
+         font-size: 1.5rem;
+     }
+     .classes-par{
+         font-size: .7rem;
+     }
+    .classes-table th{
+         font-size: .3rem;
+     }
+     .classes-list li{
+         font-size: .3rem;
+     }
+    .membership-title{
+         font-size: 1.5rem
+     }
+     .membership-par{
+         font-size: .7rem;
+     }
+     .membership-card-heading{
+         font-size: 1rem;
+     }
+     .membership-card-item{
+         font-size: .8rem;
+     }
+}
