@@ -267,17 +267,6 @@ transform:translate(0, -50%);
     box-shadow: 2px 3px 10px #000;
     overflow: hidden;
 }
-.classes-list{
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 10px;
-}
-.classes-list li{
-    list-style-type: none;
-       
-}
 .classes-table-day{
     font-family: "Merriweather" , sans-serif;
     font-size: 1.5rem;
@@ -313,12 +302,13 @@ transform:translate(0, -50%);
     text-shadow: 2px 2px #000;
 }
 .membership-underline{
-    border-bottom: .1rem solid rgb(255, 255, 255);
+    border-bottom: .1rem solid #fff;
     width: 50%;
     margin: auto;
 }
  .membership-par{
-    color: antiquewhite
+    font-size: 1.2rem;
+    color: antiquewhite;
 }
 .membership-card-1{
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage1.jpg) no-repeat center /cover;
@@ -349,7 +339,7 @@ transform:translate(0, -50%);
     text-shadow: 2px 2px #000;
 }
 .membership-card-item{
-    border-bottom: 1px groove #eee;
+    border-bottom: 1px groove #fff;
     width: 50%;
     margin: auto;
 }
@@ -377,7 +367,7 @@ transform:translate(0, -50%);
 .membership-package{
     background: transparent;
     border-color: transparent;
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid #fff;
     border-radius: 0;
     transition: all .5s;
 }
@@ -390,6 +380,78 @@ transform:translate(0, -50%);
     box-shadow: none;
 }
 /* End of membership */
+
+/* contact */
+.contact{
+     box-shadow: 2px 3px 10px #000;
+}
+.contact-title{
+    font-family: "Merriweather" , sans-serif;
+    color: tomato;
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    text-shadow: 2px 2px #000;
+}
+.contact-underline{
+    border-bottom: .1rem solid rgb(255, 255, 255);
+    width: 50%;   
+}
+.contact-par{
+    font-size: 1.2rem;
+    color: antiquewhite;
+}
+.contact{
+    background: linear-gradient(105deg, rgba(21, 31, 32, .7)0% , rgba(21, 31, 32, .8)50%, transparent 50%) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+}
+.form-input{
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 0;
+    transition: all .5s;
+}
+.form-input:focus{
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color:antiquewhite;
+    border-bottom: 2px solid tomato;
+}
+.form-check-label{
+    color: antiquewhite;
+}
+.form-text-area{
+    background: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 0;
+    resize: none;
+    transition: all .5s;
+}
+.form-text-area:focus{
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    color:antiquewhite;
+    border-bottom: 2px solid tomato;
+}
+.submit-button{
+    background: tomato;
+    color: white;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 18px #000;
+    transition: .3s;
+}
+.submit-button:hover{
+    background-color: orangered;
+    color:antiquewhite;
+    transform: translateY(-2px);
+}
+.submit-button:focus{
+    box-shadow: none;
+    
+}
+/* End of contact */
 /* Media Queries */
 
 /*  */
