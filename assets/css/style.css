@@ -433,19 +433,19 @@ transform:translate(0, -50%);
     color:antiquewhite;
     border-bottom: 2px solid tomato;
 }
-.submit-button{
+.form-submit-button{
     background: tomato;
     color:#fff;
     border-radius: 1.5rem;
     box-shadow: 5px 8px 18px #000;
     transition: .3s;
 }
-.submit-button:hover{
+.form-submit-button:hover{
     background-color: orangered;
     color:antiquewhite;
     transform: translateY(-2px);
 }
-.submit-button:focus{
+.form-submit-button:focus{
     box-shadow: none;   
 }
 /* End of contact */
@@ -520,6 +520,167 @@ footer{
 }
 /* end of footer */
 /* Media Queries */
-
-
-
+/* Small Mobile devices */
+@media only screen and (min-width:280px) and (max-width:375px){
+    nav-menu{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)); 
+    }
+    .team-title,
+    .facilities-title,
+    .classes-title,
+    .membership-title,
+    .contact-title{
+        font-size: 1.5rem;
+    }
+    .team-par,
+    .facilities-par,
+    .classes-par,
+    .membership-par,
+    .contact-par{
+        font-size: 1rem;
+    }
+    .team-image{
+        height: 400px;
+    }    
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+        font-size:.6rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        
+    }
+    .underline-1,
+    .underline-2,
+    .underline-3,
+    .underline-4{
+        border-bottom: .1rem solid #fff;
+        width: 60%;
+        margin:auto;
+    }
+    .classes-table-day{
+        font-size:1.2rem;
+    }
+    .classes-table-heading{
+        font-size: 1rem;
+    }
+    .classes-table td{
+        font-size: .6rem;
+    }
+    .membership-card-heading{
+        font-size: .9rem;
+    }
+    .membership-card-item{
+        font-size: .7rem;
+    }
+    .contact{
+        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+    }
+    .contact-title,
+    .contact-par{
+        text-align:center;
+    }
+    .contact-underline{
+        margin: auto;
+    }
+    .top-footer{
+        text-align:center;
+    }
+}
+/* Bigger mobile devices */
+@media only screen and (min-width:376px) and (max-width:480px){
+    .team-image{
+        height: 400px;
+    }    
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+        font-size:.6rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        
+    }
+    .underline-1,
+    .underline-2,
+    .underline-3,
+    .underline-4{
+        border-bottom: .1rem solid #fff;
+        width: 60%;
+        margin:auto;
+    }
+    .contact{
+     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+    }
+    .contact-title,
+    .contact-par{
+        text-align:center;
+    }
+    .contact-underline{
+        margin: auto;
+    }
+    .top-footer{
+        text-align:center;
+    }
+}
+/* iPads and Tablets */
+@media only screen and (min-width:481px) and (max-width:768px){
+    .team-image{
+        height: 500px;
+    }    
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+        font-size:1rem;
+        font-weight: 300;
+        letter-spacing: .1rem;
+        
+    }
+    .underline-1,
+    .underline-2,
+    .underline-3,
+    .underline-4{
+        border-bottom: .1rem solid #fff;
+        width: 60%;
+        margin:auto;
+    }
+    .contact{
+     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+    }
+    .contact-title,
+    .contact-par{
+        text-align:center;
+    }
+    .contact-underline{
+        margin: auto;
+    }
+    .top-footer{
+        text-align:center;
+    }
+}
+/* Small Screens and Laptops */
+@media only screen and (min-width:769px) and (max-width:991px){
+    .team-image{
+        height: 600px;
+    }    
+    .name-1,
+    .name-2,
+    .name-3,
+    .name-4{
+        font-size:1.5rem;
+        font-weight: 300;
+        letter-spacing: .1rem;     
+    }
+    .contact{
+        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+    }
+    .form-submit-button{
+        width: 50%;
+        margin: auto;
+    }   
+    .top-footer{
+        text-align:center;
+    }
+}
