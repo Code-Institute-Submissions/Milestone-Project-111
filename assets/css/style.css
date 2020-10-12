@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding:0;
-    /* font-family: "Raleway" , sans-serif; */
+    font-family: "Raleway" , sans-serif;
 }
 
 /* navbar */
@@ -105,6 +105,9 @@ transform:translate(0, -50%);
     font-weight: 700;
     text-shadow: 2px 2px #000;
  }
+ .carousel-text{
+     font-size: 1.2rem;
+ }
  .carousel-indicators li {
         width: .5rem;
         height: .5rem;
@@ -154,6 +157,7 @@ transform:translate(0, -50%);
     margin: auto;
 }
 .team-par{
+    font-size: 1.2rem;
     color:antiquewhite;
     text-shadow: 1px 1px #000;
 }
@@ -209,6 +213,7 @@ transform:translate(0, -50%);
     margin: auto;
 }
 .facilities-par{
+    font-size: 1.2rem;
     color: antiquewhite
 }
 .card{
@@ -251,9 +256,14 @@ transform:translate(0, -50%);
     margin: auto;
 }
 .classes-par{
+    font-size: 1.2rem;
     color: antiquewhite
 }
 .classes-table{
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(/assets/images/classestableimage.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: contain;
     box-shadow: 2px 3px 10px #000;
     overflow: hidden;
 }
@@ -266,17 +276,29 @@ transform:translate(0, -50%);
 }
 .classes-list li{
     list-style-type: none;
-        
+       
 }
-.table-head{
+.classes-table-day{
     font-family: "Merriweather" , sans-serif;
+    font-size: 1.5rem;
     color: tomato;
+    text-shadow: 1px 1px #000
+}
+.classes-table-heading{
+    font-family: "Merriweather" , sans-serif;
+    font-size: 1.2rem;
+    color: antiquewhite;
     text-shadow: 1px 1px #000;
 }
-.table-day{
-    font-family: "Merriweather" , sans-serif;
-    color: antiquewhite;
-    text-shadow: 1px 1px #000
+.classes-booking-btn{
+    text-decoration: none;
+    border: 2px solid tomato;
+    color: #fff;
+    padding: .7rem 1.2rem;
+    font-size: 1.1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
 }
 /* End of Classes */
 /* Membership */
@@ -370,7 +392,9 @@ transform:translate(0, -50%);
 /* End of membership */
 /* Media Queries */
 
-@media screen and (min-device-width:922px) and (max-device-width:1242px) {
+/*  */
+
+/* @media screen and (min-device-width:922px) and (max-device-width:1242px) {
     .name-1,
     .name-2,
     .name-3,
@@ -650,4 +674,4 @@ transform:translate(0, -50%);
     box-shadow: none;
 }    
 
-}
+} */
