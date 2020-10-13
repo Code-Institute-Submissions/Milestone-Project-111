@@ -41,7 +41,7 @@
 
     *   [Project Concept](#Project-Concept)
     *   [Project Framework](#Project-framework)
-    *   [Images & Images](#Photos-Images)
+    *   [Photos & Images](#Photos-Images)
     *   [Coding Tips & Tricks](Coding-Tips-Tricks)
     *   [Slack Group](#Slack-Group)
 
@@ -170,8 +170,8 @@ This section describes the UX process of this Project.
    *    The Website as an interface is designed for an easy navigation for any device user. All the elements are presented according to the size and placement.
    *    I have used a dark interface for this Website thus used the combination dark and light colors for the background, fonts, buttons and image overlays. 
         *   Colors Used
-            *   Background Color: #1b1b1b
-            *   Font Colors: tomato antiquewhite  #fff
+            *   Background Color: ```#1b1b1b```
+            *   Font Colors: tomato antiquewhite  '#fff'
             *   Button Color: #tomato
             *   Button hover Color: #orangered
             *   box-shadow color:  #000
@@ -284,7 +284,7 @@ This section describes the UX process of this Project.
 
    *    [Bootstrap](https://getbootstrap.com/) is used as a framework. 
 
-###     Images & Images
+###     Photos & Images
 
    *    [Unsplash](https://unsplash.com/)
    *    [Pngtree](https://pngtree.com/)
@@ -300,4 +300,10 @@ This section describes the UX process of this Project.
 ###    Acknowledgements
    
    *    I would like to acknowdle my mentor Aaron Sinott for giving me the advice about the project.
-  
+
+ 
+
+ 
+
+
+
