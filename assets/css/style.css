@@ -477,7 +477,7 @@ footer{
 }
 .need-help a:hover{
     font-size: 1.1rem;
-    transform: translateY(-1);
+    transform: translateY(-1 , -1);
     color: tomato;
 }
  
@@ -512,7 +512,7 @@ footer{
 }
 .stay-connected i:hover{
     font-size: 1.5rem;
-    transform: translateY(-1);
+    transform: translateY(-1 , -1);
     color: tomato;
 }
 .heart-icon{

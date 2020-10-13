@@ -69,7 +69,7 @@ This section describes the UX process of this Project.
 ### **User Stories**
 
 ### Website Owner
- *  I am the owner of this Website. This website is to highlight the Gyms resources and facilities. I want to give out ample information about the Gym on this website so any website vistior could turn into a customer.
+ *  I am the owner of this Website. This website is to highlight the Gyms resources and facilities. I want to give out ample information about the Gym on this website so any website vistior could turn into a customer. I want the feedback from the customers via Social Media platforms, contact form and emails. I want the customers to be informed of all the new facilities, resources and new classes.
 
 ### New User
  *   I am a user who wants to joint a gym. I need inspiration and guidance. I want a Gym with adequate facilites. As a new I want to find out on this website about all the rescources and facilities this gym has. I want to know about the pricing plans and the timings.  
@@ -77,6 +77,8 @@ This section describes the UX process of this Project.
  *  I am a user who wants to have specific workout class. I want to check the website for that workout class and also the timings and price.
 
  *  I want to check on the website about the free parking and lockers facilities. 
+
+ *  I want to join the Social Media platforms of the Gym to be fully informed.
 
 ### Returning User
  *  I am a returning user and have previously used this website to learn about timings, fee structure of the Gym.
@@ -230,3 +232,14 @@ This section describes the UX process of this Project.
    *   [Pngtree](https://pngtree.com/)
    *   [W3schools](https://www.w3schools.com/)
    *   [StackOverFlow](https://stackoverflow.com/)  
+
+###     **Testing**
+
+   *   Testing User Stories
+         * Website Owner: All the elements, images, buttons, links, social media links on the Website works perfectly fine. 
+         * New User: A new user can navigate the Gym in a seemless manner. The menu is anchored with all the sections of the website. The website has all the information of the Gym. The Team section, The Faciliites Section with the images, The workout classes and the timetable with a booking button, membership section with three different nmembership fee options, the contact section with a contact form with different radio buttons with different options so a users query could be dealt in a more proficient manner and the footer section with detials of Gym About us, contact section with address, email and phone n umber, the opening and closing times of the Gyms and the social media sections. All the links perfectly fine on all the devices.
+         * Returning User: A returning user can connect the Gym via contact form, email, phone or social media platform.
+
+    *  Code Testing
+         * The HTML was Validted by [HTML Code Validator](https://validator.w3.org/). All erros and warnings were corrected.
+         * 
