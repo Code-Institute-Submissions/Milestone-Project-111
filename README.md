@@ -273,7 +273,7 @@ This section describes the UX process of this Project.
 
 ###     Project Framework
 
-   *    [Bootstrap](https://getbootstrap.com/) is used as a framework. 
+   *    [Bootstrap](https://getbootstrap.com) is used as a framework. 
 
 ###     Project Fonts
    *    [GoogleFonts](https://fonts.google.com/)
