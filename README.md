@@ -24,8 +24,6 @@
 
 *   [Technologies Used](#Technologies-used)
 
-*   [Other Resources](#Other-Resources)
-
 *   [Testing](#Testing)
 
     *   [Testing User Stories](#Testing-User-Stories)
@@ -41,6 +39,8 @@
 
     *   [Project Concept](#Project-Concept)
     *   [Project Framework](#Project-framework)
+    *   [Project Fonts](#Project-Fonts)
+    *   [Project Icons](#Project-Icons)
     *   [Photos & Images](#Photos-Images)
     *   [Coding Tips & Tricks](Coding-Tips-Tricks)
     *   [Slack Group](#Slack-Group)
@@ -172,7 +172,7 @@ This section describes the UX process of this Project.
         *   Colors Used
             *   Background Color: ```#1b1b1b```
             *   Font Colors: ```tomato``` ```antiquewhite```  ```#fff```
-            *   Button Color: #tomato
+            *   Button Color: ```tomato```
             *   Button hover Color: ```orangered```
             *   box-shadow color:  ```#000```
 
@@ -228,15 +228,6 @@ This section describes the UX process of this Project.
    *   Adobe Photoshop
          * Adobe Photoshop is used to resize and optimize the images and photos for web.
     
-###     **Other Resources**
-  
-   *   [GoogleFonts](https://fonts.google.com/)
-   *   [FontAwesome](https://fontawesome.com/)
-   *   [Unsplash](https://unsplash.com/)
-   *   [Pngtree](https://pngtree.com/)
-   *   [W3schools](https://www.w3schools.com/)
-   *   [StackOverFlow](https://stackoverflow.com/)  
-
 ###     **Testing**
 
 ###     Testing User Stories
@@ -283,6 +274,13 @@ This section describes the UX process of this Project.
 ###     Project Framework
 
    *    [Bootstrap](https://getbootstrap.com/) is used as a framework. 
+
+###     Project Fonts
+   *    [GoogleFonts](https://fonts.google.com/)
+
+###     Project Icons
+
+   *    [FontAwesome](https://fontawesome.com/)
 
 ###     Photos & Images
 
