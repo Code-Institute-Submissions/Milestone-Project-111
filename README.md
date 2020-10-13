@@ -171,10 +171,10 @@ This section describes the UX process of this Project.
    *    I have used a dark interface for this Website thus used the combination dark and light colors for the background, fonts, buttons and image overlays. 
         *   Colors Used
             *   Background Color: ```#1b1b1b```
-            *   Font Colors: tomato antiquewhite  '#fff'
+            *   Font Colors: ```tomato``` ```antiquewhite```  ```#fff```
             *   Button Color: #tomato
-            *   Button hover Color: #orangered
-            *   box-shadow color:  #000
+            *   Button hover Color: ```orangered```
+            *   box-shadow color:  ```#000```
 
         *   Fonts Used (Google Fonts)
             *   Heading Font: Merriweather
