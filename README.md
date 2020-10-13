@@ -270,7 +270,7 @@ This section describes the UX process of this Project.
 ###     **Deployment**
     
 ###       **Credits**
- The credits Go to the following.
+ The credits go to the following.
     
    *   Project Concept
 

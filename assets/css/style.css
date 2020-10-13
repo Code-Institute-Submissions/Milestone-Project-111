@@ -531,7 +531,8 @@ footer{
         font-size: 1rem;
     }
     .team-image{
-        height: 400px;
+        max-width: 100%;
+        height: 300px;
     }    
     .name-1,
     .name-2,
@@ -673,5 +674,15 @@ footer{
     }   
     .top-footer{
         text-align:center;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1024px){
+    .team-image{
+        height: 700px;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1280px){
+    .team-image{
+        height: 800px;
     }
 }
