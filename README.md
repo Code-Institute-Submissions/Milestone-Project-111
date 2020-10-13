@@ -239,61 +239,65 @@ This section describes the UX process of this Project.
 
 ###     **Testing**
 
-   *   Testing User Stories
-         * Website Owner: All the elements, images, buttons, links, social media links on the Website works perfectly fine. 
-         * New User: A new user can navigate the Gym in a seemless manner. The menu is anchored with all the sections of the website. The website has all the information of the Gym. The Team section, The Faciliites Section with the images, The workout classes and the timetable with a booking button, membership section with three different nmembership fee options, the contact section with a contact form with different radio buttons with different options so a users query could be dealt in a more proficient manner and the footer section with detials of Gym About us, contact section with address, email and phone n umber, the opening and closing times of the Gyms and the social media sections. All the links perfectly fine on all the devices.
-         * Returning User: A returning user can connect the Gym via contact form, email, phone or social media platform.
+###     Testing User Stories
 
-    *  Code Testing
-         * The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). All erros were corrected.
-         * The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). All Errors were corrected.
+   *    Website Owner: All the elements, images, buttons, links, social media links on the Website works perfectly fine. 
+   *    New User: A new user can navigate the Gym in a seemless manner. The menu is anchored with all the sections of the website. The website has all the information of the Gym. The Team section, The Faciliites Section with the images, The workout classes and the timetable with a booking button, membership section with three different nmembership fee options, the contact section with a contact form with different radio buttons with different options so a users query could be dealt in a more proficient manner and the footer section with detials of Gym About us, contact section with address, email and phone n umber, the opening and closing times of the Gyms and the social media sections. All the links perfectly fine on all the devices.
+   *    Returning User: A returning user can connect the Gym via contact form, email, phone or social media platform.
 
-    *   Google Developer Tools
-         * I have tested the Design responsiveness on different devices by using Google Developer Tools.  
+###    Code Validation
+
+   *    The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). All erros were corrected.
+
+   *    The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). All Errors were corrected.
+
+###    Google Developer Tools
+
+   *    I have tested the Design responsiveness on different devices by using Google Developer Tools.  
     
-    *   Testing On Different Browsers
-         * Google Chrome
-         * Safari
+###     Testing On Different Browsers
+   *    Google Chrome
+   *    Safari
     
-    *   Testing Responsiveness On Different Devices
-         * iMac 27"
-         * Acer Aspire Laptop
-         * iPad Pro 12.9"
-         * iPad Pro 11"
-         * iphone 8 Plus
-         * iphone 7 Plus
-         * iphone 7
+###     Testing Responsiveness On Different Devices
+   *    iMac 27"
+   *    Acer Aspire Laptop
+   *    iPad Pro 12.9"
+   *    iPad Pro 11"
+   *    iphone 8 Plus
+   *    iphone 7 Plus
+   *    iphone 7
     
-    *   Issues Found
-         * There were issues found while validating the code HTML Code that was corrected.
+###     Issues Found
+   *    There were issues found while validating the code HTML Code and were corrected.
 
 ###     **Deployment**
     
 ###       **Credits**
  The credits go to the following.
     
-   *   Project Concept
+###     Project Concept
 
-        * Project concept was taken from Code Institute's First Milestone Project Ideas.
+   *    Project concept was taken from Code Institute's First Milestone Project Ideas.
 
-   *    Project Framework
+###     Project Framework
 
-        * [Bootstrap](https://getbootstrap.com/) is used as a framework. 
+   *    [Bootstrap](https://getbootstrap.com/) is used as a framework. 
 
-   *   Images & Images
+###     Images & Images
 
-        * [Unsplash](https://unsplash.com/)
-        * [Pngtree](https://pngtree.com/)
+   *    [Unsplash](https://unsplash.com/)
+   *    [Pngtree](https://pngtree.com/)
     
-   *    Coding Tips & Tricks
+###     Coding Tips & Tricks
 
-        * [W3schools](https://www.w3schools.com/)
-        * [StackOverFlow](https://stackoverflow.com/) 
+   *    [W3schools](https://www.w3schools.com/)
+   *    [StackOverFlow](https://stackoverflow.com/) 
 
-   *   Slack Group
-        * Slack Group has been very helpfull in this project.
+###      Slack Group
+   *    Slack Group has been very helpfull in this project.
     
-   *   Acknowledgements
+###    Acknowledgements
    
-        * I would like to acknowdle my mentor Aaron Sinott for giving me the advice about the project.
+   *    I would like to acknowdle my mentor Aaron Sinott for giving me the advice about the project.
   
