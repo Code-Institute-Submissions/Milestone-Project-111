@@ -30,6 +30,7 @@
 
     *   [Testing User Stories](#Testing-User-Stories)
     *   [Code Validation](#Code-Validation)
+    *   [Google Developer Tools](#Google-Developer-Tools)
     *   [Testing On Different Browsers](#Testing-On-Different-Browsers)
     *   [Testing Responsiveness On Different Devices](#Testing-Responsiveness-Different-Devices)
     *   [Issues Found](#Issues-Found)
@@ -38,8 +39,11 @@
 
 *   [Credits](#Credits)
 
-    *   [Content](#Content)
-    *   [Images](#Images)
+    *   [Project Concept](#Project-Concept)
+    *   [Project Framework](#Project-framework)
+    *   [Images & Images](#Photos-Images)
+    *   [Coding Tips & Tricks](Coding-Tips-Tricks)
+    *   [Slack Group](#Slack-Group)
 
 *   [Acknowledgements](#Acknowledgements)
 
@@ -241,5 +245,55 @@ This section describes the UX process of this Project.
          * Returning User: A returning user can connect the Gym via contact form, email, phone or social media platform.
 
     *  Code Testing
-         * The HTML was Validted by [HTML Code Validator](https://validator.w3.org/). All erros and warnings were corrected.
-         * 
+         * The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). All erros were corrected.
+         * The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). All Errors were corrected.
+
+    *   Google Developer Tools
+         * I have tested the Design responsiveness on different devices by using Google Developer Tools.  
+    
+    *   Testing On Different Browsers
+         * Google Chrome
+         * Safari
+    
+    *   Testing Responsiveness On Different Devices
+         * iMac 27"
+         * Acer Aspire Laptop
+         * iPad Pro 12.9"
+         * iPad Pro 11"
+         * iphone 8 Plus
+         * iphone 7 Plus
+         * iphone 7
+    
+    *   Issues Found
+         * There were issues found while validating the code HTML Code that was corrected.
+
+###     **Deployment**
+    
+###       **Credits**
+ The credits Go to the following.
+    
+   *   Project Concept
+
+        * Project concept was taken from Code Institute's First Milestone Project Ideas.
+
+   *    Project Framework
+
+        * [Bootstrap](https://getbootstrap.com/) is used as a framework. 
+
+   *   Images & Images
+
+        * [Unsplash](https://unsplash.com/)
+        * [Pngtree](https://pngtree.com/)
+    
+   *    Coding Tips & Tricks
+
+        * [W3schools](https://www.w3schools.com/)
+        * [StackOverFlow](https://stackoverflow.com/) 
+
+   *   Slack Group
+        * Slack Group has been very helpfull in this project.
+    
+   *   Acknowledgements
+   
+        * I would like to acknowdle my mentor Aaron Sinott for giving me the advice about the project.
+  

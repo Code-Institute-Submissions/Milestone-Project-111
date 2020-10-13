@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding:0;
     font-family: "Raleway" , sans-serif;
+    background-color: #1b1b1b;
 }
 /* navbar */
 .logo{
@@ -143,9 +144,6 @@ transform:translate(0, -50%);
 }
 /* end of carousel */
 /* team*/
-.team{
-    background-color:#1b1b1b; 
-}
 .team-title{
     font-family: "Merriweather" , sans-serif;
     color: tomato;
@@ -199,9 +197,6 @@ transform:translate(0, -50%);
 }
 /* End of team*/
 /* facilities */
-.facilities{
-    background: #1b1b1b;
-}
 .facilities-title{
     font-family: "Merriweather" , sans-serif;
     font-size: 2.5rem;
@@ -242,9 +237,6 @@ transform:translate(0, -50%);
 }
 /* End of facilities */
 /* Classes */
-.classes{
-    background:#1b1b1b;
-}
 .classes-title{
     font-family: "Merriweather" , sans-serif;
     color: tomato;
@@ -263,17 +255,19 @@ transform:translate(0, -50%);
 }
 .classes-table{
     background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(/assets/images/classestableimage.jpg);
-    /* background-repeat: no-repeat; */
     background-position: center;
     background-size: contain;
     box-shadow: 2px 3px 10px #000;
-    overflow: hidden;
+}
+.classes-table td , .classes-table th{
+    border: 1px solid antiquewhite;
 }
 .classes-table-day{
     font-family: "Merriweather" , sans-serif;
     font-size: 1.5rem;
     color: tomato;
-    text-shadow: 1px 1px #000
+    text-shadow: 1px 1px #000;
+    box-shadow: 2px 2px 12px tomato inset;
 }
 .classes-table-heading{
     font-family: "Merriweather" , sans-serif;
@@ -306,9 +300,6 @@ transform:translate(0, -50%);
 }
 /* End of Classes */
 /* Membership */
-.membership{
-    background:#1b1b1b;  
-}
 .membership-title{
     font-family: "Merriweather" , sans-serif;
     color: tomato;
@@ -382,9 +373,8 @@ transform:translate(0, -50%);
 /* End of membership */
 /* contact */
 .contact{
-    background: #1b1b1b;
-     background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)50%, transparent 50%) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
-     box-shadow: 5px 6px 19px #000; 
+    background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)50%, transparent 50%) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+    box-shadow: 5px 6px 19px #000; 
 }
 .contact-title{
     font-family: "Merriweather" , sans-serif;
@@ -457,6 +447,7 @@ footer{
     font-family: "Merriweather" , sans-serif;
     color: tomato;
     text-shadow: 2px 2px #000;
+    letter-spacing: .1rem;
 }
 .about-par{
     font-size: .8rem;
@@ -477,7 +468,7 @@ footer{
 }
 .need-help a:hover{
     font-size: 1.1rem;
-    transform: translateY(-1 , -1);
+    transform: translate(1% , -1px);
     color: tomato;
 }
  
@@ -512,7 +503,7 @@ footer{
 }
 .stay-connected i:hover{
     font-size: 1.5rem;
-    transform: translateY(-1 , -1);
+    transform: translate(1% , -1px);
     color: tomato;
 }
 .heart-icon{
