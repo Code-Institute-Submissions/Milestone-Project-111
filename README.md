@@ -1,4 +1,5 @@
 # Code Institute : MileStone Project 1
+![ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/UX/mockupscreenshot.jpg)
 ### Project Name : [ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/)
 ### Developed By : Faisal Nadeem
 
@@ -245,9 +246,12 @@ This Gym website developed as a First MileStone Project for Code Institute .The 
 
 ####    Code Validation
 
-   *    The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). All erros were corrected.
+   *    The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). 
+![HTML-Code-Validation](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/CodeValidationScreenshots/HTML-Code-Validation.jpg)
 
-   *    The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). All Errors were corrected.
+   *    The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). 
+![HTML-Code-Validation](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/CodeValidationScreenshots/CSS-Code-Validation.jpg)
+
 
 ####    Google Developer Tools
 
