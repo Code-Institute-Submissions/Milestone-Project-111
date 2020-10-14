@@ -247,7 +247,7 @@ This Gym website developed as a First MileStone Project for Code Institute .The 
 ####    Code Validation
 
    *    The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). 
-![HTML-Code-Validation](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/CodeValidationScreenshots/HTML-Code-Validation.jpg)
+![HTML-Code-Validation](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/CodeValidationScreenshots/HTML-Code-validation.jpg)
 
    *    The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). 
 ![HTML-Code-Validation](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/CodeValidationScreenshots/CSS-Code-Validation.jpg)
