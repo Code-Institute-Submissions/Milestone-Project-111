@@ -454,6 +454,7 @@ footer{
 }
 .timings {
     font-size: .8rem;
+    text-decoration: none;
 }
 .need-help a{
     font-size: .8rem;
