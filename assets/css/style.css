@@ -1,859 +1,1007 @@
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-body{
-    margin: 0;
-    padding:0;
-    font-family: "Raleway" , sans-serif;
-    background-color: #1b1b1b;
+/* Resetting of marin and padding of the website, font-family added to the body text and background color added */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+	background-color: #1b1b1b;
 }
+
+ 
 /* navbar */
-.logo{
-    width: 5rem;
-    height: 5rem;
+
+.logo {
+	width: 5rem;
+	height: 5rem;
 }
-.nav-menu{
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)); 
+
+.nav-menu {
+	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5));
 }
-.nav-button:focus{
-    border: transparent;
-    outline: none;
+
+.nav-button:focus {
+	border: transparent;
+	outline: none;
 }
-.navbar-brand:hover{
-    color: tomato;
+
+.navbar-brand:hover {
+	color: tomato;
 }
-.menu-item{
-    color: antiquewhite;
-    font-family: "Merriweather",sans-serif;
-    font-size: .8rem;
-    letter-spacing: .1rem;
-    font-weight: 300;
-    text-shadow: 1px 1px #000;
-    transition: color .5s;
+
+.menu-item {
+	color: antiquewhite;
+	font-family: "Merriweather", sans-serif;
+	font-size: .8rem;
+	letter-spacing: .1rem;
+	font-weight: 300;
+	text-shadow: 1px 1px #000;
+	transition: color .5s;
 }
-.menu-item:hover{
-    color: tomato;
+
+.menu-item:hover {
+	color: tomato;
 }
-.active{
-    color:tomato;
+
+.active {
+	color: tomato;
 }
-.line-1, 
-.line-2, 
-.line-3{
-    width: 1.5rem;
-    height: .1rem;
-    margin: .3rem;
+
+.line-1,
+.line-2,
+.line-3 {
+	width: 1.5rem;
+	height: .1rem;
+	margin: .3rem;
 }
-.change .line-1{
-    transform: rotate(-45deg) translate(-.3rem, .3rem);
+
+.change .line-1 {
+	transform: rotate(-45deg) translate(-.3rem, .3rem);
 }
-.change .line-2{
-    opacity: 0;
+
+.change .line-2 {
+	opacity: 0;
 }
-.change .line-3{
-    transform: rotate(45deg) translate(-.3rem, -.3rem);
+
+.change .line-3 {
+	transform: rotate(45deg) translate(-.3rem, -.3rem);
 }
+
+
 /* End of navbar */
+
+
 /* carousel */
-.carousel{
-    box-shadow: 5px 6px 19px #000; 
+
+.carousel {
+	box-shadow: 5px 6px 19px #000;
 }
-.my-carousel-image{
-    height: 100vh;
-    width: 100%;
+
+.my-carousel-image {
+	height: 100vh;
+	width: 100%;
 }
+
+
 /* carousel images layover color */
-.carousel-item-1:after{
-    content:"";
-    position:absolute;       
-     top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.3);
- }
-.carousel-item-2:after{
-    content:"";
-    position:absolute;       
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.3);
- }
- .carousel-item-3:after{
-    content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.3);
- }
- /* end of carousel layover color */
+
+.carousel-item-1:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item-2:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-item-3:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+
+/* end of carousel layover color */
+
 .carousel-caption {
-width:100%;
-z-index:10;
-text-align:center;
-top:65%;
-left: auto;
-right: auto;
-bottom:auto;
--webkit-transform:translate(0, -50%);
--ms-transform:translate(0, -50%);
-transform:translate(0, -50%);
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	top: 70%;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	transform: translate(0, -50%);
 }
-.carousel-heading{
-    font-family: "Merriweather", sans-serif;
-    color: antiquewhite;
-    font-weight: 700;
-    text-shadow: 2px 2px #000;
- }
- .carousel-text{
-     font-size: 1.2rem;
- }
- .carousel-indicators li {
-        width: .5rem;
-        height: .5rem;
-        border-radius: 100%;
-        margin-right: .5rem;
-        background-color:antiquewhite;
-        opacity: 1;
+
+.carousel-heading {
+	font-family: "Merriweather", sans-serif;
+	color: antiquewhite;
+	font-weight: 700;
+	text-shadow: 2px 2px #000;
 }
-.carousel-indicators .active{
-    background-color: tomato;
+
+.carousel-text {
+	font-size: 1.2rem;
 }
-.carousel-btn{
-    background: tomato;
-    font-size: 1.1rem;
-    color:#fff;
-    width: 9rem;
-    border-radius: 1.5rem;
-    box-shadow: 5px 8px 18px #000;
-    text-shadow: 1px 1px #000;
-    letter-spacing: .1rem;
-    transition: .3s;
+
+.carousel-indicators li {
+	width: .5rem;
+	height: .5rem;
+	border-radius: 100%;
+	margin-right: .5rem;
+	background-color: antiquewhite;
+	opacity: 1;
 }
-.carousel-btn:hover{
-    background-color: orangered;
-    color:antiquewhite;
-    transform: translateY(-2px);
+
+.carousel-indicators .active {
+	background-color: tomato;
 }
-.carousel-btn:focus{
-    outline: none;
-    box-shadow:none;
+
+.carousel-btn {
+	background: tomato;
+	font-size: 1.1rem;
+	color: #fff;
+	width: 9rem;
+	border-radius: 1.5rem;
+	box-shadow: 5px 8px 18px #000;
+	text-shadow: 1px 1px #000;
+	letter-spacing: .1rem;
+	transition: .3s;
 }
+
+.carousel-btn:hover {
+	background-color: orangered;
+	color: antiquewhite;
+	transform: translateY(-2px);
+}
+
+.carousel-btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+
 /* end of carousel */
+
+
 /* team*/
-.team-title{
-    font-family: "Merriweather" , sans-serif;
-    color: tomato;
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
-    text-shadow: 2px 2px #000;
+
+.team-title {
+	font-family: "Merriweather", sans-serif;
+	color: tomato;
+	font-size: 2.5rem;
+	letter-spacing: .3rem;
+	text-shadow: 2px 2px #000;
 }
-.team-underline{
-    border-bottom: .1rem solid #fff;
-    width: 50%;
-    margin: auto;
+
+.team-underline {
+	border-bottom: .1rem solid #fff;
+	width: 50%;
+	margin: auto;
 }
-.team-par{
-    font-size: 1.2rem;
-    color:antiquewhite;
-    text-shadow: 1px 1px #000;
+
+.team-par {
+	font-size: 1.2rem;
+	color: antiquewhite;
+	text-shadow: 1px 1px #000;
 }
+
 .name-1,
 .name-2,
 .name-3,
-.name-4{
-    font-family: "Merriweather" , sans-serif;
-    text-transform: uppercase;
-    color:tomato;
-    font-size:2rem;
-    font-weight: 300;
-    letter-spacing: .4rem;
-    text-shadow: 1px 1px #000;
+.name-4 {
+	font-family: "Merriweather", sans-serif;
+	text-transform: uppercase;
+	color: tomato;
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: .4rem;
+	text-shadow: 1px 1px #000;
 }
+
 .underline-1,
 .underline-2,
 .underline-3,
-.underline-4{
-    border-bottom: .1rem solid #fff;
-    width: 50%;
-    margin:auto;
+.underline-4 {
+	border-bottom: .1rem solid #fff;
+	width: 50%;
+	margin: auto;
 }
-.team-image{
-   width:100% ;
-   height: 100vh;
-   object-fit: cover;
-   object-position: center center;
-   border-radius: 20px;
-   box-shadow: 5px 6px 19px #000;
+
+.team-image {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	object-position: center center;
+	border-radius: 20px;
+	box-shadow: 5px 6px 19px #000;
 }
-.underline-section{
-    border-bottom: .1rem solid #fff;
-    width: 100%;
-    margin: auto;
-    box-shadow: 3px 3px 7px #000;
+
+.underline-section {
+	border-bottom: .1rem solid #fff;
+	width: 100%;
+	margin: auto;
+	box-shadow: 3px 3px 7px #000;
 }
+
+
 /* End of team*/
+
+
 /* facilities */
-.facilities-title{
-    font-family: "Merriweather" , sans-serif;
-    font-size: 2.5rem;
-    color: tomato;
-    letter-spacing: .3rem;
-    text-shadow: 2px 2px #000;
+
+.facilities-title {
+	font-family: "Merriweather", sans-serif;
+	font-size: 2.5rem;
+	color: tomato;
+	letter-spacing: .3rem;
+	text-shadow: 2px 2px #000;
 }
-.facilities-underline{
-    border-bottom: .1rem solid #fff;
-    width: 50%;
-    margin: auto;
+
+.facilities-underline {
+	border-bottom: .1rem solid #fff;
+	width: 50%;
+	margin: auto;
 }
-.facilities-par{
-    font-size: 1.2rem;
-    color: antiquewhite
+
+.facilities-par {
+	font-size: 1.2rem;
+	color: antiquewhite
 }
-.card{
-    border-radius: 20px;
+
+.card {
+	border-radius: 20px;
 }
-.card-img{
-    border-radius: 20px;
+
+.card-img {
+	border-radius: 20px;
 }
-.card-shadow{
-    box-shadow: 5px 8px 20px #000;
+
+.card-shadow {
+	box-shadow: 5px 8px 20px #000;
 }
-.heading{
-    position: absolute;
-    top: 85%;
-    right: 0;
-    font-size: .8rem;
-    font-weight: 600;
-    color:tomato;
-    text-shadow: 1px 1px #000;
-    background: #1b1b1b;
-    width: 70%;
-    box-shadow: 3px 3px 5px #000;
-    cursor: pointer;
+
+.heading {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .8rem;
+	font-weight: 600;
+	color: tomato;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
 }
+
+
 /* End of facilities */
+
+
 /* Classes */
-.classes-title{
-    font-family: "Merriweather" , sans-serif;
-    color: tomato;
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
-    text-shadow: 2px 2px #000;
+
+.classes-title {
+	font-family: "Merriweather", sans-serif;
+	color: tomato;
+	font-size: 2.5rem;
+	letter-spacing: .3rem;
+	text-shadow: 2px 2px #000;
 }
-.classes-underline{
-    border-bottom: .1rem solid rgb(255, 255, 255);
-    width: 50%;
-    margin: auto;
+
+.classes-underline {
+	border-bottom: .1rem solid rgb(255, 255, 255);
+	width: 50%;
+	margin: auto;
 }
-.classes-par{
-    font-size: 1.2rem;
-    color: antiquewhite
+
+.classes-par {
+	font-size: 1.2rem;
+	color: antiquewhite
 }
-.classes-table{
-    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/classestableimage.jpg);
-    background-position: center;
-    background-size: contain;
-    box-shadow: 2px 3px 10px #000;
+
+.classes-table {
+	background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/classestableimage.jpg);
+	background-position: center;
+	background-size: contain;
+	box-shadow: 2px 3px 10px #000;
 }
-.classes-table td , .classes-table th{
-    border: 1px solid antiquewhite;
+
+.classes-table td,
+.classes-table th {
+	border: 1px solid antiquewhite;
 }
-.classes-table-day{
-    font-family: "Merriweather" , sans-serif;
-    font-size: 1.5rem;
-    color: tomato;
-    text-shadow: 1px 1px #000;
-    box-shadow: 2px 2px 12px tomato inset;
+
+.classes-table-day {
+	font-family: "Merriweather", sans-serif;
+	font-size: 1.5rem;
+	color: tomato;
+	text-shadow: 1px 1px #000;
+	box-shadow: 2px 2px 12px tomato inset;
 }
-.classes-table-heading{
-    font-family: "Merriweather" , sans-serif;
-    font-size: 1.2rem;
-    color: antiquewhite;
-    text-shadow: 1px 1px #000;
+
+.classes-table-heading {
+	font-family: "Merriweather", sans-serif;
+	font-size: 1.2rem;
+	color: antiquewhite;
+	text-shadow: 1px 1px #000;
 }
-.classes-booking-btn{
-    text-decoration: none;
-    border: 2px solid tomato;
-    color:antiquewhite;
-    padding: .7rem 1.2rem;
-    font-size: 1.1rem;
-    border-radius: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 2rem;
+
+.classes-booking-btn {
+	text-decoration: none;
+	border: 2px solid tomato;
+	color: antiquewhite;
+	padding: .7rem 1.2rem;
+	font-size: 1.1rem;
+	border-radius: 1.5rem;
+	cursor: pointer;
+	margin-bottom: 2rem;
 }
-.classes-booking-btn:hover{
-    text-decoration: none;
-    border: 2px solid antiquewhite;
-    color:tomato;
-    padding: .7rem 1.2rem;
-    font-size: 1.1rem;
-    border-radius: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 2rem;
+
+.classes-booking-btn:hover {
+	text-decoration: none;
+	border: 2px solid antiquewhite;
+	color: tomato;
+	padding: .7rem 1.2rem;
+	font-size: 1.1rem;
+	border-radius: 1.5rem;
+	cursor: pointer;
+	margin-bottom: 2rem;
 }
-.classes-booking-btn:focus{
-    box-shadow: none;
+
+.classes-booking-btn:focus {
+	box-shadow: none;
 }
+
+
 /* End of Classes */
+
+
 /* Membership */
-.membership-title{
-    font-family: "Merriweather" , sans-serif;
-    color: tomato;
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
-    text-shadow: 2px 2px #000;
+
+.membership-title {
+	font-family: "Merriweather", sans-serif;
+	color: tomato;
+	font-size: 2.5rem;
+	letter-spacing: .3rem;
+	text-shadow: 2px 2px #000;
 }
-.membership-underline{
-    border-bottom: .1rem solid #fff;
-    width: 50%;
-    margin: auto;
+
+.membership-underline {
+	border-bottom: .1rem solid #fff;
+	width: 50%;
+	margin: auto;
 }
- .membership-par{
-    font-size: 1.2rem;
-    color: antiquewhite;
+
+.membership-par {
+	font-size: 1.2rem;
+	color: antiquewhite;
 }
-.membership-card-1{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../images/membershipimage1.jpg) no-repeat center /cover;
-    box-shadow:5px 8px 20px #000; 
-    color: white;
+
+.membership-card-1 {
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../images/membershipimage1.jpg) no-repeat center /cover;
+	box-shadow: 5px 8px 20px #000;
+	color: white;
 }
-.membership-card-2{
-    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(../images/membershipimage2.jpg) no-repeat center /cover;
-    box-shadow:5px 8px 20px #000; 
-    color: white;
+
+.membership-card-2 {
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../images/membershipimage2.jpg) no-repeat center /cover;
+	box-shadow: 5px 8px 20px #000;
+	color: white;
 }
-.membership-card-3{
-    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(../images/membershipimage3.jpg) no-repeat center /cover;
-    box-shadow:5px 8px 20px #000; 
-    color: white;
+
+.membership-card-3 {
+	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../images/membershipimage3.jpg) no-repeat center /cover;
+	box-shadow: 5px 8px 20px #000;
+	color: white;
 }
-.membership-card-heading{
-    font-family: "Merriweather" , sans-serif;
-    color: tomato;
-    letter-spacing: .1rem;
-    box-shadow: 2px 3px 10px #000;
-    padding: .4rem 0;
-    text-shadow: 2px 2px #000;
+
+.membership-card-heading {
+	font-family: "Merriweather", sans-serif;
+	color: tomato;
+	letter-spacing: .1rem;
+	box-shadow: 2px 3px 10px #000;
+	padding: .4rem 0;
+	text-shadow: 2px 2px #000;
 }
-.membership-fee{
-    font-family: "Merriweather" , sans-serif;
-    color: antiquewhite;
-    text-shadow: 2px 2px #000;
+
+.membership-fee {
+	font-family: "Merriweather", sans-serif;
+	color: antiquewhite;
+	text-shadow: 2px 2px #000;
 }
-.membership-card-item{
-    border-bottom: 1px groove #fff;
-    width: 50%;
-    margin: auto;
+
+.membership-card-item {
+	border-bottom: 1px groove #fff;
+	width: 50%;
+	margin: auto;
 }
-.membership-card-button{
-    background: tomato;
-    font-size: 1.1rem;
-    color:#fff;
-    width:9rem;
-    border-radius: 1.5rem;
-    box-shadow: 5px 8px 18px #000;
-    text-shadow: 1px 1px #000;
-    letter-spacing: .1rem;
-    transition: .3s;
+
+.membership-card-button {
+	background: tomato;
+	font-size: 1.1rem;
+	color: #fff;
+	width: 9rem;
+	border-radius: 1.5rem;
+	box-shadow: 5px 8px 18px #000;
+	text-shadow: 1px 1px #000;
+	letter-spacing: .1rem;
+	transition: .3s;
 }
-.membership-card-button:hover{
-    background-color: orangered;
-    color:antiquewhite;
-    transform: translateY(-2px);
+
+.membership-card-button:hover {
+	background-color: orangered;
+	color: antiquewhite;
+	transform: translateY(-2px);
 }
-.membership-card-button:focus{
-    border: transparent;
-    outline: none;
-    box-shadow: none;
+
+.membership-card-button:focus {
+	border: transparent;
+	outline: none;
+	box-shadow: none;
 }
+
+
 /* End of membership */
+
+
 /* contact */
-.contact{
-    background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)50%, transparent 50%) ,url(../images/contactform.jpg) no-repeat top center /cover;
-    box-shadow: 5px 6px 19px #000; 
+
+.contact {
+	background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)50%, transparent 50%), url(../images/contactform.jpg) no-repeat top center /cover;
+	box-shadow: 5px 6px 19px #000;
 }
-.contact-title{
-    font-family: "Merriweather" , sans-serif;
-    color: tomato;
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
-    text-shadow: 2px 2px #000;
+
+.contact-title {
+	font-family: "Merriweather", sans-serif;
+	color: tomato;
+	font-size: 2.5rem;
+	letter-spacing: .3rem;
+	text-shadow: 2px 2px #000;
 }
-.contact-underline{
-    border-bottom: .1rem solid #fff;
-    width: 50%;   
+
+.contact-underline {
+	border-bottom: .1rem solid #fff;
+	width: 50%;
 }
-.contact-par{
-    font-size: 1.2rem;
-    color: antiquewhite;
+
+.contact-par {
+	font-size: 1.2rem;
+	color: antiquewhite;
 }
-.form-input{
-    background: transparent;
-    border-color: transparent;
-    border-bottom: 2px solid #fff;
-    border-radius: 0;
-    transition: all .5s;
+
+.form-input {
+	background: transparent;
+	border-top:transparent;
+    border-left: transparent;
+    border-right:transparent;
+	border-bottom: 2px solid #fff;
+	border-radius: 0;
+	transition: all .5s;
 }
-.form-input:focus{
-    background: transparent;
-    border-color: transparent;
-    box-shadow: none;
-    color:antiquewhite;
-    border-bottom: 2px solid tomato;
+
+.form-input:focus {
+	background: transparent;
+	border-top:transparent;
+    border-left: transparent;
+    border-right:transparent;
+	box-shadow: none;
+	color: antiquewhite;
+	border-bottom: 2px solid tomato;
 }
-.form-check-label{
-    color: antiquewhite;
+
+.form-check-label {
+	color: antiquewhite;
 }
-.form-text-area{
-    background: transparent;
-    border-color: transparent;
-    border-bottom: 2px solid #fff;
-    border-radius: 0;
-    resize: none;
-    transition: all .5s;
+
+.form-text-area {
+	background: transparent;
+	border-top:transparent;
+    border-left: transparent;
+    border-right:transparent;
+	border-bottom: 2px solid #fff;
+	border-radius: 0;
+	resize: none;
+	transition: all .5s;
 }
-.form-text-area:focus{
-    background: transparent;
-    border-color: transparent;
-    box-shadow: none;
-    color:antiquewhite;
-    border-bottom: 2px solid tomato;
+
+.form-text-area:focus {
+	background: transparent;
+	border-top:transparent;
+    border-left: transparent;
+    border-right:transparent;
+	box-shadow: none;
+	color: antiquewhite;
+	border-bottom: 2px solid tomato;
 }
-.form-submit-button{
-    background: tomato;
-    color:#fff;
-    border-radius: 1.5rem;
-    box-shadow: 5px 8px 18px #000;
-    transition: .3s;
+
+.form-submit-button {
+	background: tomato;
+	color: #fff;
+	border-radius: 1.5rem;
+	box-shadow: 5px 8px 18px #000;
+	transition: .3s;
 }
-.form-submit-button:hover{
-    background-color: orangered;
-    color:antiquewhite;
-    transform: translateY(-2px);
+
+.form-submit-button:hover {
+	background-color: orangered;
+	color: antiquewhite;
+	transform: translateY(-2px);
 }
-.form-submit-button:focus{
-    box-shadow: none;   
+
+.form-submit-button:focus {
+	box-shadow: none;
 }
+
+
 /* End of contact */
+
+
 /* footer */
-footer{
-    background:#1b1b1b; 
+
+footer {
+	background: #1b1b1b;
 }
-.footer-headings{
-    font-family: "Merriweather" , sans-serif;
-    color: tomato;
-    text-shadow: 2px 2px #000;
-    letter-spacing: .1rem;
+
+.footer-headings {
+	font-family: "Merriweather", sans-serif;
+	color: tomato;
+	text-shadow: 2px 2px #000;
+	letter-spacing: .1rem;
 }
-.about-par{
-    font-size: .8rem;
+
+.about-par {
+	font-size: .8rem;
 }
+
 .timings {
-    font-size: .8rem;
-    text-decoration: none;
+	font-size: .8rem;
+	text-decoration: none;
 }
-.need-help a{
-    font-size: .8rem;
-    text-decoration: none;
-    color: #fff;
-    transition: .5s;
+
+.need-help a {
+	font-size: .8rem;
+	text-decoration: none;
+	color: #fff;
+	transition: .5s;
 }
-.need-help i{
-    font-size: 1.3rem;
-    color: antiquewhite;
-    transition: .5s;
+
+.need-help i {
+	font-size: 1.3rem;
+	color: antiquewhite;
+	transition: .5s;
 }
-.need-help a:hover{
-    font-size: 1.1rem;
-    transform: translate(1% , -1px);
-    color: tomato;
+
+.need-help a:hover {
+	font-size: 1.1rem;
+	transform: translate(1%, -1px);
+	color: tomato;
 }
- 
-.stay-connected-par{
-    font-size: .8rem;
+
+.stay-connected-par {
+	font-size: .8rem;
 }
- 
-.footer-underline{
-    border-bottom: .1rem solid #fff;
-    color: white;
-    width: 100%;
+
+.footer-underline {
+	border-bottom: .1rem solid #fff;
+	color: white;
+	width: 100%;
 }
-.facebook{
-    font-size: 1.3rem;
-    color: antiquewhite;
-    transition: .5s;
+
+.facebook {
+	font-size: 1.3rem;
+	color: antiquewhite;
+	transition: .5s;
 }
-.instagram{
-    font-size: 1.3rem ;
-    color:antiquewhite;
-    transition: .5s;
+
+.instagram {
+	font-size: 1.3rem;
+	color: antiquewhite;
+	transition: .5s;
 }
-.twitter{
-    font-size: 1.3rem ;
-    color:antiquewhite;
-    transition: .5s;
+
+.twitter {
+	font-size: 1.3rem;
+	color: antiquewhite;
+	transition: .5s;
 }
-.youtube{
-    font-size: 1.3rem ;
-    color:antiquewhite;
-    transition: .5s;
+
+.youtube {
+	font-size: 1.3rem;
+	color: antiquewhite;
+	transition: .5s;
 }
-.stay-connected i:hover{
-    font-size: 1.5rem;
-    transform: translate(1% , -1px);
-    color: tomato;
+
+.stay-connected i:hover {
+	font-size: 1.5rem;
+	transform: translate(1%, -1px);
+	color: tomato;
 }
-.heart-icon{
-    color: red;
+
+.heart-icon {
+	color: red;
 }
+
+
 /* end of footer */
+
+
 /* Media Queries */
+
+
 /* Small Mobile devices */
-@media only screen and (min-width:280px) and (max-width:375px){
-    nav-menu{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)); 
-    }
-    .team-title,
-    .facilities-title,
-    .classes-title,
-    .membership-title,
-    .contact-title{
-        font-size: 1.5rem;
-    }
-    .team-par,
-    .facilities-par,
-    .classes-par,
-    .membership-par,
-    .contact-par{
-        font-size: 1rem;
-    }
-    .team-image{
-        max-width: 100%;
-        height: 300px;
-    }    
-    .name-1,
-    .name-2,
-    .name-3,
-    .name-4{
-        font-size:.6rem;
-        font-weight: 300;
-        letter-spacing: .1rem;
-        
-    }
-    .underline-1,
-    .underline-2,
-    .underline-3,
-    .underline-4{
-        border-bottom: .1rem solid #fff;
-        width: 60%;
-        margin:auto;
-    }
-    .classes-table-day{
-        font-size:1.1rem;
-    }
-    .classes-table-heading{
-        font-size: .8rem;
-    }
-    .classes-table td{
-        font-size: .5rem;
-    }
-    .classes-booking-btn{
-        text-decoration: none;
-        border: 2px solid tomato;
-        color:antiquewhite;
-        padding: .5rem 1rem;
-        font-size: .9rem;
-        border-radius: 1.5rem;
-        cursor: pointer;
-        margin-bottom: 2rem;
+
+@media only screen and (min-width:280px) and (max-width:375px) {
+	nav-menu {
+		background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8));
+	}
+	.team-title,
+	.facilities-title,
+	.classes-title,
+	.membership-title,
+	.contact-title {
+		font-size: 1.5rem;
+	}
+	.team-par,
+	.facilities-par,
+	.classes-par,
+	.membership-par,
+	.contact-par {
+		font-size: 1rem;
+	}
+	.team-image {
+		max-width: 100%;
+		height: 300px;
+	}
+	.name-1,
+	.name-2,
+	.name-3,
+	.name-4 {
+		font-size: .6rem;
+		font-weight: 300;
+		letter-spacing: .1rem;
+	}
+	.underline-1,
+	.underline-2,
+	.underline-3,
+	.underline-4 {
+		border-bottom: .1rem solid #fff;
+		width: 60%;
+		margin: auto;
+	}
+	.classes-table-day {
+		font-size: 1.1rem;
+	}
+	.classes-table-heading {
+		font-size: .8rem;
+	}
+	.classes-table td {
+		font-size: .5rem;
+	}
+	.classes-booking-btn {
+		text-decoration: none;
+		border: 2px solid tomato;
+		color: antiquewhite;
+		padding: .5rem 1rem;
+		font-size: .9rem;
+		border-radius: 1.5rem;
+		cursor: pointer;
+		margin-bottom: 2rem;
+	}
+	.membership-card-heading {
+		font-size: .9rem;
+	}
+	.membership-card-item {
+		font-size: .7rem;
+	}
+	.membership-card-button {
+		background: tomato;
+		font-size: .9rem;
+		color: #fff;
+		width: 8rem;
+		border-radius: 1.5rem;
+		box-shadow: 5px 8px 18px #000;
+		text-shadow: 1px 1px #000;
+		letter-spacing: .1rem;
+		transition: .3s;
+	}
+	.contact {
+		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+	}
+	.contact-title,
+	.contact-par {
+		text-align: center;
+	}
+	.contact-underline {
+		margin: auto;
+	}
+	.top-footer {
+		text-align: center;
+	}
 }
-    .membership-card-heading{
-        font-size: .9rem;
-    }
-    .membership-card-item{
-        font-size: .7rem;
-    }
-    .membership-card-button{
-    background: tomato;
-    font-size: .9rem;
-    color:#fff;
-    width:8rem;
-    border-radius: 1.5rem;
-    box-shadow: 5px 8px 18px #000;
-    text-shadow: 1px 1px #000;
-    letter-spacing: .1rem;
-    transition: .3s;
-}
-    .contact{
-        background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
-    }
-    .contact-title,
-    .contact-par{
-        text-align:center;
-    }
-    .contact-underline{
-        margin: auto;
-    }
-    .top-footer{
-        text-align:center;
-    }
-}
+
+
 /* Bigger mobile devices */
-@media only screen and (min-width:376px) and (max-width:480px){
-    .team-image{
-        height: 400px;
-    }    
-    .name-1,
-    .name-2,
-    .name-3,
-    .name-4{
-        font-size:.6rem;
-        font-weight: 300;
-        letter-spacing: .1rem;
-        
-    }
-    .underline-1,
-    .underline-2,
-    .underline-3,
-    .underline-4{
-        border-bottom: .1rem solid #fff;
-        width: 60%;
-        margin:auto;
-    }
-    th.classes-table-day{
-     padding-left:40px;
-    }
-    .classes-booking-btn{
-        text-decoration: none;
-        border: 2px solid tomato;
-        color:antiquewhite;
-        padding: .5rem 1rem;
-        font-size: .9rem;
-        border-radius: 1.5rem;
-        cursor: pointer;
-        margin-bottom: 2rem;
+
+@media only screen and (min-width:376px) and (max-width:480px) {
+	.team-image {
+		height: 400px;
+	}
+	.name-1,
+	.name-2,
+	.name-3,
+	.name-4 {
+		font-size: .6rem;
+		font-weight: 300;
+		letter-spacing: .1rem;
+	}
+	.underline-1,
+	.underline-2,
+	.underline-3,
+	.underline-4 {
+		border-bottom: .1rem solid #fff;
+		width: 60%;
+		margin: auto;
+	}
+	th.classes-table-day {
+		padding-left: 40px;
+	}
+	.classes-booking-btn {
+		text-decoration: none;
+		border: 2px solid tomato;
+		color: antiquewhite;
+		padding: .5rem 1rem;
+		font-size: .9rem;
+		border-radius: 1.5rem;
+		cursor: pointer;
+		margin-bottom: 2rem;
+	}
+	th.booking-btn {
+		padding-left: 33px;
+	}
+	.membership-card-button {
+		background: tomato;
+		font-size: .9rem;
+		color: #fff;
+		width: 8rem;
+		border-radius: 1.5rem;
+		box-shadow: 5px 8px 18px #000;
+		text-shadow: 1px 1px #000;
+		letter-spacing: .1rem;
+		transition: .3s;
+	}
+	.contact {
+		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+	}
+	.contact-title,
+	.contact-par {
+		text-align: center;
+	}
+	.contact-underline {
+		margin: auto;
+	}
+	.top-footer {
+		text-align: center;
+	}
 }
-    th.booking-btn{
-    padding-left:33px;
-    }
-    .membership-card-button{
-    background: tomato;
-    font-size: .9rem;
-    color:#fff;
-    width:8rem;
-    border-radius: 1.5rem;
-    box-shadow: 5px 8px 18px #000;
-    text-shadow: 1px 1px #000;
-    letter-spacing: .1rem;
-    transition: .3s;
-}
-    .contact{
-      background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
-    }
-    .contact-title,
-    .contact-par{
-        text-align:center;
-    }
-    .contact-underline{
-        margin: auto;
-    }
-    .top-footer{
-        text-align:center;
-    }
-}
+
+
 /* iPads and Tablets */
-@media only screen and (min-width:481px) and (max-width:768px){
-    .team-image{
-        height: 500px;
-    }    
-    .name-1,
-    .name-2,
-    .name-3,
-    .name-4{
-        font-size:1rem;
-        font-weight: 300;
-        letter-spacing: .1rem;
-        
-    }
-    .underline-1,
-    .underline-2,
-    .underline-3,
-    .underline-4{
-        border-bottom: .1rem solid #fff;
-        width: 60%;
-        margin:auto;
-    }
-    th.classes-table-day{
-     padding-left:50px;
-    }
-    .classes-booking-btn{
-        text-decoration: none;
-        border: 2px solid tomato;
-        color:antiquewhite;
-        padding: .5rem 1rem;
-        font-size: .9rem;
-        border-radius: 1.5rem;
-        cursor: pointer;
-        margin-bottom: 2rem;
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+	.team-image {
+		height: 500px;
+	}
+	.name-1,
+	.name-2,
+	.name-3,
+	.name-4 {
+		font-size: 1rem;
+		font-weight: 300;
+		letter-spacing: .1rem;
+	}
+	.underline-1,
+	.underline-2,
+	.underline-3,
+	.underline-4 {
+		border-bottom: .1rem solid #fff;
+		width: 60%;
+		margin: auto;
+	}
+	th.classes-table-day {
+		padding-left: 50px;
+	}
+	.classes-booking-btn {
+		text-decoration: none;
+		border: 2px solid tomato;
+		color: antiquewhite;
+		padding: .5rem 1rem;
+		font-size: .9rem;
+		border-radius: 1.5rem;
+		cursor: pointer;
+		margin-bottom: 2rem;
+	}
+	th.booking-btn {
+		padding-left: 40px;
+	}
+	.membership-card-button {
+		background: tomato;
+		font-size: .9rem;
+		color: #fff;
+		width: 8rem;
+		border-radius: 1.5rem;
+		box-shadow: 5px 8px 18px #000;
+		text-shadow: 1px 1px #000;
+		letter-spacing: .1rem;
+		transition: .3s;
+	}
+	.contact {
+		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+	}
+	.contact-title,
+	.contact-par {
+		text-align: center;
+	}
+	.contact-underline {
+		margin: auto;
+	}
+	.top-footer {
+		text-align: center;
+	}
 }
-    th.booking-btn{
-    padding-left:40px;
-    }
-    .membership-card-button{
-    background: tomato;
-    font-size: .9rem;
-    color:#fff;
-    width:8rem;
-    border-radius: 1.5rem;
-    box-shadow: 5px 8px 18px #000;
-    text-shadow: 1px 1px #000;
-    letter-spacing: .1rem;
-    transition: .3s;
-}
-    .contact{
-     background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
-    }
-    .contact-title,
-    .contact-par{
-        text-align:center;
-    }
-    .contact-underline{
-        margin: auto;
-    }
-    .top-footer{
-        text-align:center;
-    }
-}
+
+
 /* Small Screens and Laptops */
-@media only screen and (min-width:769px) and (max-width:991px){
-    .team-image{
-        height: 600px;
-    }    
-    .name-1,
-    .name-2,
-    .name-3,
-    .name-4{
-        font-size:1.5rem;
-        font-weight: 300;
-        letter-spacing: .1rem;     
-    }
-    .classes-title-wrap{
-    padding-left:160px;
-    }
-    th.classes-table-day{
-     padding-left:70px;
-    }
-    th.booking-btn{
-    padding-left:70px;
-    }
-    .contact{
-        background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
-    }
-    .form-submit-button{
-        width: 50%;
-        margin: auto;
-    }   
-    .top-footer{
-        text-align:center;
-    }
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+	.team-image {
+		height: 600px;
+	}
+	.name-1,
+	.name-2,
+	.name-3,
+	.name-4 {
+		font-size: 1.5rem;
+		font-weight: 300;
+		letter-spacing: .1rem;
+	}
+	.classes-title-wrap {
+		padding-left: 160px;
+	}
+	th.classes-table-day {
+		padding-left: 70px;
+	}
+	th.booking-btn {
+		padding-left: 70px;
+	}
+	.contact {
+		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+	}
+	.form-submit-button {
+		width: 50%;
+		margin: auto;
+	}
+	.top-footer {
+		text-align: center;
+	}
 }
-@media only screen and (min-width:992px) and (max-width:1024px){
-    .team-image{
-        height: 700px;
-    }
-    .classes-title-wrap{
-    padding-left:190px;
-    }
-    th.classes-table-day{
-     padding-left:85px;
-    }
-    th.booking-btn{
-    padding-left:85px;
-    }
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+	.team-image {
+		height: 700px;
+	}
+	.classes-title-wrap {
+		padding-left: 190px;
+	}
+	th.classes-table-day {
+		padding-left: 85px;
+	}
+	th.booking-btn {
+		padding-left: 85px;
+	}
 }
-@media only screen and (min-width:1025px) and (max-width:1280px){
-    .team-image{
-        height: 800px;
-    }
-    .classes-title-wrap{
-    padding-left:220px;
-    }
-    th.classes-table-day{
-     padding-left:90px;
-    }
-    th.booking-btn{
-    padding-left:90px;
-    }
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+	.team-image {
+		height: 800px;
+	}
+	.classes-title-wrap {
+		padding-left: 220px;
+	}
+	th.classes-table-day {
+		padding-left: 90px;
+	}
+	th.booking-btn {
+		padding-left: 90px;
+	}
 }
-@media only screen and (min-width:1281px) and (max-width:1370px){
-    .classes-title-wrap{
-    padding-left:280px;
-    }
-    th.classes-table-day{
-     padding-left:110px;
-    }
-    th.booking-btn{
-    padding-left:105px;
-    }
+
+@media only screen and (min-width:1281px) and (max-width:1370px) {
+	.classes-title-wrap {
+		padding-left: 280px;
+	}
+	th.classes-table-day {
+		padding-left: 110px;
+	}
+	th.booking-btn {
+		padding-left: 105px;
+	}
 }
-@media only screen and (min-width:1371px) and (max-width:1750px){
-    .classes-title-wrap{
-    padding-left:310px;
-    }
-    th.classes-table-day{
-     padding-left:120px;
-    }
-    th.booking-btn{
-    padding-left:120px;
-    }
+
+@media only screen and (min-width:1371px) and (max-width:1750px) {
+	.classes-title-wrap {
+		padding-left: 310px;
+	}
+	th.classes-table-day {
+		padding-left: 120px;
+	}
+	th.booking-btn {
+		padding-left: 120px;
+	}
 }
-@media only screen and (min-width:1751px) and (max-width:1979px){
-    .classes-title-wrap{
-    padding-left:380px;
-    }
-    th.classes-table-day{
-     padding-left:150px;
-    }
-    th.booking-btn{
-    padding-left:150px;
-    }
+
+@media only screen and (min-width:1751px) and (max-width:1979px) {
+	.classes-title-wrap {
+		padding-left: 380px;
+	}
+	th.classes-table-day {
+		padding-left: 150px;
+	}
+	th.booking-btn {
+		padding-left: 150px;
+	}
 }
-@media only screen and (min-width:1980px) and (max-width:2200px){
-    .classes-title-wrap{
-        padding-left:400px;
-    }
-    th.classes-table-day{
-        padding-left:160px;
-    }
-    th.booking-btn{
-        padding-left:160px;
-    }
+
+@media only screen and (min-width:1980px) and (max-width:2200px) {
+	.classes-title-wrap {
+		padding-left: 400px;
+	}
+	th.classes-table-day {
+		padding-left: 160px;
+	}
+	th.booking-btn {
+		padding-left: 160px;
+	}
 }
-@media only screen and (min-width:2201px) and (max-width:2291px){
-    .classes-title-wrap{
-         padding-left:480px;
-    }
-    th.classes-table-day{
-         padding-left:170px;
-    }
-    th.booking-btn{
-        padding-left:170px;
-    }
+
+@media only screen and (min-width:2201px) and (max-width:2291px) {
+	.classes-title-wrap {
+		padding-left: 480px;
+	}
+	th.classes-table-day {
+		padding-left: 170px;
+	}
+	th.booking-btn {
+		padding-left: 170px;
+	}
 }
-@media only screen and (min-width:2291px){
-    .classes-title-wrap{
-        padding-left:480px;
-    }
-    th.classes-table-day{
-         padding-left:180px;
-    }th.booking-btn{
-        padding-left:180px;
-    }
-    th.booking-btn{
-        padding-left:180px;
-    }
+
+@media only screen and (min-width:2291px) {
+	.classes-title-wrap {
+		padding-left: 480px;
+	}
+	th.classes-table-day {
+		padding-left: 180px;
+	}
+	th.booking-btn {
+		padding-left: 180px;
+	}
+	th.booking-btn {
+		padding-left: 180px;
+	}
 }
