@@ -54,41 +54,46 @@ This section describes the UX process of this Project.
 
 ### Project Description
 
-This Gym website developed as a First MileStone Project for Code Institute .The main idea behind this webiste is to showcase a Gym's ideology of staying fit and healthy. The Gym's website plays a catalyst role for a user to live a healthy life style.  Anyone who loves staying fit or wants to change the daily boring routine will definitly be thinking of joining a Gym and a website provides a user with enough information and enthusiasm to join this Gym. The Gym specialize in many areas from Yoga to Zumba Dancing Classes. With Personnal training sessions and dietry plans encourage the users to carry on with the healthy life style. It also gives a way of meeting with the like minded people. The webiste is easy to navigate with subtle colors and fonts used. A user will easily find his/her way to any part of the website. This a one page website with different sections with almost all the information for a user.
+This Gym website developed as a First MileStone Project for Code Institute. The main idea behind this website is to showcase a Gym's ideology of staying fit and healthy. The Gym's website plays a catalyst role for a user to live a healthy lifestyle.  Anyone who loves staying fit or wants to change the daily boring routine will definitely be thinking of joining a Gym and a website provides a user with enough information and enthusiasm to join this Gym. The Gym specializes in many areas from Yoga to Zumba Dancing Classes. Personal training sessions and dietary plans encourage the users to carry on with a healthy life style. It also gives a way of meeting with like minded people. The website is easy to navigate with subtle colors and fonts used. A user will easily find his/her way to any part of the website. This is a one-page website with different sections with almost all the information for a user.
 
 ### Project Aims
 
- *   The main goals of this project is to showcase a Gym's Website.
+ *   The main goal of this project is to showcase a Gym's Website.
  *   This website as a Business inspire the users to join the Gym. 
- *   This website wants to convert the vistiors into their Gym Customers.
- *   This website shows the facilities a user can avail.
- *   This website shows the different Subscribtion pacakges for a user.
+ *   This website wants to convert the visitors into their Gym Customers.
+ *   This website shows the facilities a user can avail of.
+ *   This website shows the different Subscription Packages for a user.
  *   This website shows the Team of Trainers Running the Gym.
  *   This Website shows the different training classes being offered in the Gym.
  *   This website shows the Timings of the classes and the Gym.
- *   This website shows that a user can avail the service of a personal trainer.
- *   This website shows that a user can avail a personal dietry plan according to his/her needs.   
+ *   This website shows that a user can avail of the service of a personal trainer.
+ *   This website shows that a user can avail of a personal dietary plan according to his/her needs.   
+ 
 
 ### **User Stories**
 
 ####  Website Owner
- *  I am the owner of this Website. This website is to highlight the Gyms resources and facilities. I want to give out ample information about the Gym on this website so any website vistior could turn into a customer. I want the feedback from the customers via Social Media platforms, contact form and emails. I want the customers to be informed of all the new facilities, resources and new classes.
+ *  I am the owner of this Website. This website is to highlight the Gyms resources and facilities. I want to give out ample information about the Gym on this website so any website visitor could turn into a customer. I want feedback from the customers via Social Media platform, contact form, and email. I want the customers to be informed of all the new facilities, resources, and new classes.
 
-####  New User
- *   I am a user who wants to joint a gym. I need inspiration and guidance. I want a Gym with adequate facilites. As a new I want to find out on this website about all the rescources and facilities this gym has. I want to know about the pricing plans and the timings.  
+####  First Time Visitor Goals
+ *  As a First Time Visitor, I want to navigate the website easily.
 
- *  I am a user who wants to have specific workout class. I want to check the website for that workout class and also the timings and price.
+ *   As a First Time Visitor, I want to know more about the Gym. 
 
- *  I want to check on the website about the free parking and lockers facilities. 
+ *   As a First Time Visitor, I want to find the facilities this Gym offers.
 
- *  I want to join the Social Media platforms of the Gym to be fully informed.
+ *  As a First Time Visitor, I want to find out any special workout classes the gym conducts.
 
-#### Returning User
- *  I am a returning user and have previously used this website to learn about timings, fee structure of the Gym.
+ *  As a First Time Visitor, I want to find the fee structure and the subscription plans. 
 
- *  I am a user who have used this website to join the Gym. I want to know if any new workout classes are being offered.
+ *  As a First Time Visitor, I want to find out about opening hours and also the social media platforms to see the feedback of other users. 
 
- *  I am a user who has used this webstie to join the Gym . I was just surfing the web and came across this website again, I went through the website and the new fee structure and workout classes has inspired me to join the Gym again.
+#### Returning Visitor
+ *  I am a returning visitor and want to find out about any new workout classes.
+
+ *  I am a returning visitor and want to know about the price of a class per day.
+
+ *  I am a returning visitor who wants to find ways to contact the Gym.
 
 ### **Project's Design Process**
 
