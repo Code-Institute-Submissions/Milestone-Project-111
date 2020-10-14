@@ -588,7 +588,7 @@ footer{
     transition: .3s;
 }
     .contact{
-        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
+        background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
     }
     .contact-title,
     .contact-par{
@@ -651,7 +651,7 @@ footer{
     transition: .3s;
 }
     .contact{
-     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
+      background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
     }
     .contact-title,
     .contact-par{
@@ -714,7 +714,7 @@ footer{
     transition: .3s;
 }
     .contact{
-     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
+     background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
     }
     .contact-title,
     .contact-par{
@@ -750,7 +750,7 @@ footer{
     padding-left:70px;
     }
     .contact{
-        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
+        background: linear-gradient( rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)) ,url(../images/contactform.jpg) no-repeat top center /cover;
     }
     .form-submit-button{
         width: 50%;
