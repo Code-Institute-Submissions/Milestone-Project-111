@@ -552,20 +552,41 @@ footer{
         margin:auto;
     }
     .classes-table-day{
-        font-size:1.2rem;
+        font-size:1.1rem;
     }
     .classes-table-heading{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .classes-table td{
-        font-size: .6rem;
+        font-size: .5rem;
     }
+    .classes-booking-btn{
+        text-decoration: none;
+        border: 2px solid tomato;
+        color:antiquewhite;
+        padding: .5rem 1rem;
+        font-size: .9rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+        margin-bottom: 2rem;
+}
     .membership-card-heading{
         font-size: .9rem;
     }
     .membership-card-item{
         font-size: .7rem;
     }
+    .membership-card-button{
+    background: tomato;
+    font-size: .9rem;
+    color:#fff;
+    width:8rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 18px #000;
+    text-shadow: 1px 1px #000;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
     .contact{
         background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
@@ -602,6 +623,33 @@ footer{
         width: 60%;
         margin:auto;
     }
+    th.classes-table-day{
+     padding-left:40px;
+    }
+    .classes-booking-btn{
+        text-decoration: none;
+        border: 2px solid tomato;
+        color:antiquewhite;
+        padding: .5rem 1rem;
+        font-size: .9rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+        margin-bottom: 2rem;
+}
+    th.booking-btn{
+    padding-left:33px;
+    }
+    .membership-card-button{
+    background: tomato;
+    font-size: .9rem;
+    color:#fff;
+    width:8rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 18px #000;
+    text-shadow: 1px 1px #000;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
     .contact{
      background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
@@ -638,6 +686,33 @@ footer{
         width: 60%;
         margin:auto;
     }
+    th.classes-table-day{
+     padding-left:50px;
+    }
+    .classes-booking-btn{
+        text-decoration: none;
+        border: 2px solid tomato;
+        color:antiquewhite;
+        padding: .5rem 1rem;
+        font-size: .9rem;
+        border-radius: 1.5rem;
+        cursor: pointer;
+        margin-bottom: 2rem;
+}
+    th.booking-btn{
+    padding-left:40px;
+    }
+    .membership-card-button{
+    background: tomato;
+    font-size: .9rem;
+    color:#fff;
+    width:8rem;
+    border-radius: 1.5rem;
+    box-shadow: 5px 8px 18px #000;
+    text-shadow: 1px 1px #000;
+    letter-spacing: .1rem;
+    transition: .3s;
+}
     .contact{
      background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
@@ -665,6 +740,15 @@ footer{
         font-weight: 300;
         letter-spacing: .1rem;     
     }
+    .classes-title-wrap{
+    padding-left:160px;
+    }
+    th.classes-table-day{
+     padding-left:70px;
+    }
+    th.booking-btn{
+    padding-left:70px;
+    }
     .contact{
         background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
@@ -680,9 +764,95 @@ footer{
     .team-image{
         height: 700px;
     }
+    .classes-title-wrap{
+    padding-left:190px;
+    }
+    th.classes-table-day{
+     padding-left:85px;
+    }
+    th.booking-btn{
+    padding-left:85px;
+    }
 }
 @media only screen and (min-width:1025px) and (max-width:1280px){
     .team-image{
         height: 800px;
+    }
+    .classes-title-wrap{
+    padding-left:220px;
+    }
+    th.classes-table-day{
+     padding-left:90px;
+    }
+    th.booking-btn{
+    padding-left:90px;
+    }
+}
+@media only screen and (min-width:1281px) and (max-width:1370px){
+    .classes-title-wrap{
+    padding-left:280px;
+    }
+    th.classes-table-day{
+     padding-left:110px;
+    }
+    th.booking-btn{
+    padding-left:105px;
+    }
+}
+@media only screen and (min-width:1371px) and (max-width:1750px){
+    .classes-title-wrap{
+    padding-left:310px;
+    }
+    th.classes-table-day{
+     padding-left:120px;
+    }
+    th.booking-btn{
+    padding-left:120px;
+    }
+}
+@media only screen and (min-width:1751px) and (max-width:1979px){
+    .classes-title-wrap{
+    padding-left:380px;
+    }
+    th.classes-table-day{
+     padding-left:150px;
+    }
+    th.booking-btn{
+    padding-left:150px;
+    }
+}
+@media only screen and (min-width:1980px) and (max-width:2200px){
+    .classes-title-wrap{
+        padding-left:400px;
+    }
+    th.classes-table-day{
+        padding-left:160px;
+    }
+    th.booking-btn{
+        padding-left:160px;
+    }
+}
+@media only screen and (min-width:2201px) and (max-width:2291px){
+    .classes-title-wrap{
+         padding-left:480px;
+    }
+    th.classes-table-day{
+         padding-left:170px;
+    }
+    th.booking-btn{
+        padding-left:170px;
+    }
+}
+@media only screen and (min-width:2291px){
+    .classes-title-wrap{
+        padding-left:480px;
+    }
+    th.classes-table-day{
+         padding-left:180px;
+    }th.booking-btn{
+        padding-left:180px;
+    }
+    th.booking-btn{
+        padding-left:180px;
     }
 }
