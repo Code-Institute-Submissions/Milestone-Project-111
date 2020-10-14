@@ -1,10 +1,8 @@
 # Code Institute : MileStone Project 1
-# Project Name : [ChiseledFit](https://)
-# Developed By : Faisal Nadeem
+### Project Name : [ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/)
+### Developed By : Faisal Nadeem
 
-## This is a fictional Gym website developed as a First MileStone Project for Code Institute. 
-
-# Contents
+## Contents
 
 *   [UX](#UX)
 
@@ -19,10 +17,11 @@
 
 *   [Features](#Features)
 
-     *   [Features to implement in furture](#Features-to-implement-in-future)
+    *   [Features to implement in furture](#Features-to-implement-in-future)
 
 
 *   [Technologies Used](#Technologies-used)
+    *   [Other Technologies Used](#Other-Technologies-used)
 
 *   [Testing](#Testing)
 
@@ -54,8 +53,7 @@ This section describes the UX process of this Project.
 
 ### Project Description
 
-#### This is a fictional Gym website developed as a First MileStone Project for Code Institute .The main idea behind this webiste is to showcase a Gym's ideology of staying fit and healthy. The Gym's website plays a catalyst role for a user to live a healthy life style.  Anyone who loves staying fit or wants to change the daily boring routine will definitly be thinking of joining a Gym and a website provides a user with enough information and enthusiasm to join this Gym. The Gym specialize in many areas from Yoga to Zumba Dancing Classes. With Personnal training sessions and dietry plans encourage the users to carry on with the healthy life style. It also gives a way of meeting with the like minded people.
-#### The webiste is easy to navigate with subtle colors and fonts used. A user will easily find his/her way to any part of the website. This a one page website with different sections with almost all the information for a user.
+This Gym website developed as a First MileStone Project for Code Institute .The main idea behind this webiste is to showcase a Gym's ideology of staying fit and healthy. The Gym's website plays a catalyst role for a user to live a healthy life style.  Anyone who loves staying fit or wants to change the daily boring routine will definitly be thinking of joining a Gym and a website provides a user with enough information and enthusiasm to join this Gym. The Gym specialize in many areas from Yoga to Zumba Dancing Classes. With Personnal training sessions and dietry plans encourage the users to carry on with the healthy life style. It also gives a way of meeting with the like minded people. The webiste is easy to navigate with subtle colors and fonts used. A user will easily find his/her way to any part of the website. This a one page website with different sections with almost all the information for a user.
 
 ### Project Aims
 
@@ -72,10 +70,10 @@ This section describes the UX process of this Project.
 
 ### **User Stories**
 
-### Website Owner
+####  Website Owner
  *  I am the owner of this Website. This website is to highlight the Gyms resources and facilities. I want to give out ample information about the Gym on this website so any website vistior could turn into a customer. I want the feedback from the customers via Social Media platforms, contact form and emails. I want the customers to be informed of all the new facilities, resources and new classes.
 
-### New User
+####  New User
  *   I am a user who wants to joint a gym. I need inspiration and guidance. I want a Gym with adequate facilites. As a new I want to find out on this website about all the rescources and facilities this gym has. I want to know about the pricing plans and the timings.  
 
  *  I am a user who wants to have specific workout class. I want to check the website for that workout class and also the timings and price.
@@ -84,7 +82,7 @@ This section describes the UX process of this Project.
 
  *  I want to join the Social Media platforms of the Gym to be fully informed.
 
-### Returning User
+#### Returning User
  *  I am a returning user and have previously used this website to learn about timings, fee structure of the Gym.
 
  *  I am a user who have used this website to join the Gym. I want to know if any new workout classes are being offered.
@@ -95,7 +93,7 @@ This section describes the UX process of this Project.
 
    The Whole process of user experience design process is laid out on the following five UI/UX Planes.
 
-###   Strategy Plane
+####   Strategy Plane
 
    The obvious goal of any Business is to get an exposure by different advertisement means, referarls or word of mouth. A product or a project A Company makes could be anything like a  Website, a moible App, Online Flight Booking System or Weather checking App.
 
@@ -113,7 +111,7 @@ This section describes the UX process of this Project.
 
    I have designed this website on the above Strategy plane. The Website is easy to navigate. It is  aimed at the users who are into health and fitness. The Website visitors will find the helpful information about the Gym's offerings.
 
-###   Scope Plane
+####   Scope Plane
 
    In this Plane of the UX Process I have designed this website on the basis of the strategy plane by adding the content and features for a Gym's Website. The following questions have been in answered in this Plance.
    *    What Content is provided on this Website?
@@ -128,7 +126,7 @@ This section describes the UX process of this Project.
    *    The Website has all the information about the Team, Facilities, Classes, Fee structure, Contact information and Timings in the form photos, images and written content.
    *    The Website offers Upcoming and new Fitness trends and Offers free classes and Personal Training Sessions to stay ahead of their competitors.
 
- ###   Structure Plane
+ ####   Structure Plane
  
    Structue Plane is a very important stage of developing a Website. Its way of user's interaction with a website. The main aim of this plane is to make it is easy for a website's vistior to achieve its goal in 2 to 3 steps or in other words in few clicks. The Following Questions are answered in ths Plane.
 
@@ -145,7 +143,7 @@ This section describes the UX process of this Project.
    *    A user can reach his/her goal withing 2-3 steps. The buttons provided on the website are linked to particular sections in a hierarchical structure.
    *    The Website structure or any addition in section can be achieved easily. All the coding is clearly marked withe comments for a particular section of the website. An industry standard framework is used to develope this website.
 
-###    Skeleton Plane
+####    Skeleton Plane
    I have laid out the skeleton plane for a user to clearly understands the information and move around upon that information. Everthing is organised in a harmonious way for a user to navigate the website easily. I have Used XD Wireframes to achieve the presention of all the elements of skeleton Plane
    *    The Placement of Buttons, Images, Icons, Headings and text is placed accordingly.
    *    All the Elements and their functionality is easily accessible by a user of the website.
@@ -154,12 +152,12 @@ This section describes the UX process of this Project.
    *    The wireframing is the most important element of the Skeleton plane. 
    Please see the Wireframes below.
 
-###  Mobile Version
-   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/mobile.jpg)  
-### Desktop-Laptop-Mobile Version 
-   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/assets/UX/desktop-laptop-tablet.jpg)
+####  Mobile Version
+   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/mobile.jpg)  
+#### Desktop-Laptop-Tablet Version 
+   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/desktop-laptop-tablet.jpg)
 
-###    Surface Plane
+####    Surface Plane
    Surface is the visual representation of the Website. It forms an interface with the colors, fonts, graphics and the icons used on the website. The Surface Plane is designed on the following questions.
    *    Is the interface user friendly?
    *    Do Colors and fonts incorporates with the theme of the Website?
@@ -193,7 +191,7 @@ This section describes the UX process of this Project.
    *    At the bottom is the footer with top and bottom parts. Top parts has four colums with About Us information, Timings, Need Help with address, email and phone number. The last colums has social media icons.
    *    The bottom part of the footer shows the copyright text with developers's name.
 
-###     Features to implement in future
+####     Features to implement in future
 
    *    Online class booking interface.
    *    Online Personal training Session booking.
@@ -227,30 +225,39 @@ This section describes the UX process of this Project.
     
    *   Adobe Photoshop
          * Adobe Photoshop is used to resize and optimize the images and photos for web.
+
+####    Other Technologies Used
+ 
+#####   Project Fonts
+   *    [GoogleFonts](https://fonts.google.com/)
+
+#####   Project Icons
+
+   *    [FontAwesome](https://fontawesome.com/)
     
 ###     **Testing**
 
-###     Testing User Stories
+####     Testing User Stories
 
    *    Website Owner: All the elements, images, buttons, links, social media links on the Website works perfectly fine. 
    *    New User: A new user can navigate the Gym in a seemless manner. The menu is anchored with all the sections of the website. The website has all the information of the Gym. The Team section, The Faciliites Section with the images, The workout classes and the timetable with a booking button, membership section with three different nmembership fee options, the contact section with a contact form with different radio buttons with different options so a users query could be dealt in a more proficient manner and the footer section with detials of Gym About us, contact section with address, email and phone n umber, the opening and closing times of the Gyms and the social media sections. All the links perfectly fine on all the devices.
    *    Returning User: A returning user can connect the Gym via contact form, email, phone or social media platform.
 
-###    Code Validation
+####    Code Validation
 
    *    The HTML was Validted by [W3C Markup Validator](https://validator.w3.org/). All erros were corrected.
 
    *    The CSS was validate by [W3C CSS Validator ](http://jigsaw.w3.org/css-validator/). All Errors were corrected.
 
-###    Google Developer Tools
+####    Google Developer Tools
 
    *    I have tested the Design responsiveness on different devices by using Google Developer Tools.  
     
-###     Testing On Different Browsers
+####    Testing On Different Browsers
    *    Google Chrome
    *    Safari
     
-###     Testing Responsiveness On Different Devices
+####    Testing Responsiveness On Different Devices
    *    iMac 27"
    *    Acer Aspire Laptop
    *    iPad Pro 12.9"
@@ -259,40 +266,29 @@ This section describes the UX process of this Project.
    *    iphone 7 Plus
    *    iphone 7
     
-###     Issues Found
-   *    There were issues found while validating the code HTML Code and were corrected.
+####     Issues Found
+   *    There was an issued found afer deplyoing the Project, the images werent showing up so I changed the file paths and it corrected that issue
 
 ###     **Deployment**
     
-###       **Credits**
+###     **Credits**
  The credits go to the following.
     
-###     Project Concept
+####     Project Concept
 
    *    Project concept was taken from Code Institute's First Milestone Project Ideas.
 
-###     Project Framework
-
-   *    [Bootstrap](https://getbootstrap.com) is used as a framework. 
-
-###     Project Fonts
-   *    [GoogleFonts](https://fonts.google.com/)
-
-###     Project Icons
-
-   *    [FontAwesome](https://fontawesome.com/)
-
-###     Photos & Images
+####     Photos & Images
 
    *    [Unsplash](https://unsplash.com/)
    *    [Pngtree](https://pngtree.com/)
     
-###     Coding Tips & Tricks
+####     Coding Tips & Tricks
 
    *    [W3schools](https://www.w3schools.com/)
    *    [StackOverFlow](https://stackoverflow.com/) 
 
-###      Slack Group
+####    Slack Group
    *    Slack Group has been very helpfull in this project.
     
 ###    Acknowledgements

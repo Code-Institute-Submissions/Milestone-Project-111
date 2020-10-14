@@ -254,7 +254,7 @@ transform:translate(0, -50%);
     color: antiquewhite
 }
 .classes-table{
-    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(/assets/images/classestableimage.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/classestableimage.jpg);
     background-position: center;
     background-size: contain;
     box-shadow: 2px 3px 10px #000;
@@ -317,17 +317,17 @@ transform:translate(0, -50%);
     color: antiquewhite;
 }
 .membership-card-1{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage1.jpg) no-repeat center /cover;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../images/membershipimage1.jpg) no-repeat center /cover;
     box-shadow:5px 8px 20px #000; 
     color: white;
 }
 .membership-card-2{
-    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage2.jpg) no-repeat center /cover;
+    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(../images/membershipimage2.jpg) no-repeat center /cover;
     box-shadow:5px 8px 20px #000; 
     color: white;
 }
 .membership-card-3{
-    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(/assets/images/membershipimage3.jpg) no-repeat center /cover;
+    background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0, .8)), url(../images/membershipimage3.jpg) no-repeat center /cover;
     box-shadow:5px 8px 20px #000; 
     color: white;
 }
@@ -373,7 +373,7 @@ transform:translate(0, -50%);
 /* End of membership */
 /* contact */
 .contact{
-    background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)50%, transparent 50%) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+    background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0% , rgba(29, 31, 31, 0.8)50%, transparent 50%) ,url(../images/contactform.jpg) no-repeat top center /cover;
     box-shadow: 5px 6px 19px #000; 
 }
 .contact-title{
@@ -567,7 +567,7 @@ footer{
         font-size: .7rem;
     }
     .contact{
-        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
     .contact-title,
     .contact-par{
@@ -603,7 +603,7 @@ footer{
         margin:auto;
     }
     .contact{
-     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
     .contact-title,
     .contact-par{
@@ -639,7 +639,7 @@ footer{
         margin:auto;
     }
     .contact{
-     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+     background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
     .contact-title,
     .contact-par{
@@ -666,7 +666,7 @@ footer{
         letter-spacing: .1rem;     
     }
     .contact{
-        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(/assets/images/contactform.jpg) no-repeat top center /cover;
+        background: linear-gradient(105deg, rgba(33, 34, 36, 0.8) , rgba(29, 31, 31, 0.9)) ,url(./assets/images/contactform.jpg) no-repeat top center /cover;
     }
     .form-submit-button{
         width: 50%;
