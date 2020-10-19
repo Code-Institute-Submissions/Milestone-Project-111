@@ -264,25 +264,36 @@ body {
 	color: antiquewhite
 }
 
-.card {
+.facilities-card {
 	border-radius: 20px;
+    border: transparent;
+    box-shadow: 5px 8px 20px #000;
 }
 
 .card-img {
 	border-radius: 20px;
+    border: transparent;
+}
+.facilities-card-img-overlay:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    border: transparent;
 }
 
-.card-shadow {
-	box-shadow: 5px 8px 20px #000;
-}
-
-.heading {
+.facilities-card-text {
 	position: absolute;
 	top: 85%;
 	right: 0;
-	font-size: .8rem;
+	font-size: 1rem;
 	font-weight: 600;
 	color: tomato;
+    letter-spacing: .1rem;
 	text-shadow: 1px 1px #000;
 	background: #1b1b1b;
 	width: 70%;
@@ -684,6 +695,20 @@ footer {
 		width: 60%;
 		margin: auto;
 	}
+    .facilities-card-text {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .6rem;
+	font-weight: 600;
+	color: tomato;
+    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
+}
 	.classes-table-day {
 		font-size: 1.1rem;
 	}
@@ -823,6 +848,20 @@ footer {
 		width: 60%;
 		margin: auto;
 	}
+    .facilities-card-text {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .4rem;
+	font-weight: 600;
+	color: tomato;
+    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
+}
 	th.classes-table-day {
 		padding-left: 50px;
 	}
@@ -880,6 +919,20 @@ footer {
 		font-weight: 300;
 		letter-spacing: .1rem;
 	}
+    .facilities-card-text {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .4rem;
+	font-weight: 600;
+	color: tomato;
+    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
+}
 	.classes-title-wrap {
 		padding-left: 160px;
 	}
@@ -905,6 +958,20 @@ footer {
 	.team-image {
 		height: 700px;
 	}
+    .facilities-card-text {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .5rem;
+	font-weight: 600;
+	color: tomato;
+    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
+}
 	.classes-title-wrap {
 		padding-left: 190px;
 	}
@@ -920,6 +987,20 @@ footer {
 	.team-image {
 		height: 800px;
 	}
+    .facilities-card-text {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .6rem;
+	font-weight: 600;
+	color: tomato;
+    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
+}
 	.classes-title-wrap {
 		padding-left: 220px;
 	}
@@ -932,6 +1013,20 @@ footer {
 }
 
 @media only screen and (min-width:1281px) and (max-width:1370px) {
+    .facilities-card-text {
+	position: absolute;
+	top: 85%;
+	right: 0;
+	font-size: .7rem;
+	font-weight: 600;
+	color: tomato;
+    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	background: #1b1b1b;
+	width: 70%;
+	box-shadow: 3px 3px 5px #000;
+	cursor: pointer;
+}
 	.classes-title-wrap {
 		padding-left: 280px;
 	}
