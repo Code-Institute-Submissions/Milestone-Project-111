@@ -281,7 +281,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     border: transparent;
 }
@@ -575,8 +575,10 @@ footer {
 	text-shadow: 2px 2px #000;
 	letter-spacing: .1rem;
 }
-
-.about-par {
+.about-us:focus{
+    outline: none;
+}
+.about-us-par {
 	font-size: .8rem;
 }
 
@@ -962,7 +964,7 @@ footer {
 	position: absolute;
 	top: 85%;
 	right: 0;
-	font-size: .5rem;
+	font-size: .6rem;
 	font-weight: 600;
 	color: antiquewhite;
     letter-spacing: .1rem;
