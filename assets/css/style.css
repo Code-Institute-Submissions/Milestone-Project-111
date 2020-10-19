@@ -1,4 +1,4 @@
-/* Resetting of marin and padding of the website, font-family added to the body text and background color added */
+/* Resetting of margin and padding of the website, font-family added to the body text and background color added */
 
 body {
 	margin: 0;
@@ -297,6 +297,7 @@ body {
 	text-shadow: 1px 1px #000;
 	background: #1b1b1b;
 	width: 70%;
+    border: 1px solid tomato;
 	box-shadow: 3px 3px 5px #000;
 	cursor: pointer;
 }
@@ -543,7 +544,10 @@ body {
 
 .form-submit-button {
 	background: tomato;
+    font-size: 1.1rem;
 	color: #fff;
+    text-shadow: 1px 1px #000;
+    letter-spacing: .1rem;
 	border-radius: 1.5rem;
 	box-shadow: 5px 8px 18px #000;
 	transition: .3s;
@@ -698,18 +702,7 @@ footer {
 		margin: auto;
 	}
     .facilities-card-text {
-	position: absolute;
-	top: 85%;
-	right: 0;
-	font-size: .6rem;
-	font-weight: 600;
-	color:antiquewhite;
-    letter-spacing: .1rem;
-	text-shadow: 1px 1px #000;
-	background: #1b1b1b;
-	width: 70%;
-	box-shadow: 3px 3px 5px #000;
-	cursor: pointer;
+	font-size: .8rem;
 }
 	.classes-table-day {
 		font-size: 1.1rem;
@@ -785,6 +778,9 @@ footer {
 		width: 60%;
 		margin: auto;
 	}
+    .facilities-card-text {
+	font-size: .9rem;
+    }
 	th.classes-table-day {
 		padding-left: 40px;
 	}
@@ -851,18 +847,8 @@ footer {
 		margin: auto;
 	}
     .facilities-card-text {
-	position: absolute;
-	top: 85%;
-	right: 0;
-	font-size: .4rem;
-	font-weight: 600;
-	color: antiquewhite;
-    letter-spacing: .1rem;
-	text-shadow: 1px 1px #000;
-	background: #1b1b1b;
-	width: 70%;
-	box-shadow: 3px 3px 5px #000;
-	cursor: pointer;
+	font-size: .5rem;
+	
 }
 	th.classes-table-day {
 		padding-left: 50px;
@@ -922,18 +908,8 @@ footer {
 		letter-spacing: .1rem;
 	}
     .facilities-card-text {
-	position: absolute;
-	top: 85%;
-	right: 0;
-	font-size: .4rem;
-	font-weight: 600;
-	color:antiquewhite;
-    letter-spacing: .1rem;
-	text-shadow: 1px 1px #000;
-	background: #1b1b1b;
-	width: 70%;
-	box-shadow: 3px 3px 5px #000;
-	cursor: pointer;
+	font-size: .5rem;
+	
 }
 	.classes-title-wrap {
 		padding-left: 160px;
@@ -961,18 +937,8 @@ footer {
 		height: 700px;
 	}
     .facilities-card-text {
-	position: absolute;
-	top: 85%;
-	right: 0;
-	font-size: .6rem;
-	font-weight: 600;
-	color: antiquewhite;
-    letter-spacing: .1rem;
-	text-shadow: 1px 1px #000;
-	background: #1b1b1b;
-	width: 70%;
-	box-shadow: 3px 3px 5px #000;
-	cursor: pointer;
+	font-size: .8rem;
+	
 }
 	.classes-title-wrap {
 		padding-left: 190px;
@@ -990,18 +956,7 @@ footer {
 		height: 800px;
 	}
     .facilities-card-text {
-	position: absolute;
-	top: 85%;
-	right: 0;
-	font-size: .6rem;
-	font-weight: 600;
-	color: antiquewhite;
-    letter-spacing: .1rem;
-	text-shadow: 1px 1px #000;
-	background: #1b1b1b;
-	width: 70%;
-	box-shadow: 3px 3px 5px #000;
-	cursor: pointer;
+	font-size: .9rem;
 }
 	.classes-title-wrap {
 		padding-left: 220px;
@@ -1016,18 +971,9 @@ footer {
 
 @media only screen and (min-width:1281px) and (max-width:1370px) {
     .facilities-card-text {
-	position: absolute;
-	top: 85%;
-	right: 0;
-	font-size: .7rem;
-	font-weight: 600;
-	color: antiquewhite;
-    letter-spacing: .1rem;
-	text-shadow: 1px 1px #000;
-	background: #1b1b1b;
-	width: 70%;
-	box-shadow: 3px 3px 5px #000;
-	cursor: pointer;
+	
+	font-size: .9rem;
+	
 }
 	.classes-title-wrap {
 		padding-left: 280px;
