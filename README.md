@@ -255,56 +255,57 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
         *   Every slide has a text and a call to action button.
         *   The user can click the button to join the Gym or can click any link to go to any section of the website.
 
-    ![Navigation-Menu]()
+       ![Navigation-Menu](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/navigationMenu.jpg)
 
-    *   As a First Time Visitor, I want to find the facilities this gym offers.
+   *   As a First Time Visitor, I want to find the facilities this gym offers.
         
         *   A user can simply click the facilities link on the top of the page to go to the desired section.
         *   A user can scroll down to go to the facilities section.
         *   The facilities section has eight cards and text at the bottom right of each card. Every card has a background image that clearly describes every facility the club has.
 
-    ![Facilities-Section]()
+       ![Facilities-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/facilisites.jpg)
 
-    *   As a First Time Visitor, I want to know about the Membership and fee structure of the Gym.
+   *   As a First Time Visitor, I want to know about the Membership and fee structure of the Gym.
 
         *   The user can click on the membership link to go to the Membership section.
         *   The membership section has three cards with text, a background image, and a call to action button that redirects a user to the relevant section.
 
-    ![Membership-Section]() 
+       ![Membership-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/membership.jpg) 
 
-    *   As a First Time Visitor, I want to contact the Gym.
+   *   As a First Time Visitor, I want to contact the Gym.
 
         *   The user can click the Contact link on the navigation menu that redirects the user to the Contact Us section. The Contact Us section has a form with different options and a Send button.
         *   The user can also scroll down to the bottom of the page to find the email, and phone number links in the footer.
         *   The user can also join the social media platform of the gym that can be found in the footer section.
         *   Upon clicking any social media link a new window will open and the user will be redirected to the Gym's social media platform.
         
-    ![Contact-Us-Form]()
+       ![Contact-Us-Form](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/ContactForm.jpg)
 
-    ####    Returning Visitor
+####    Returning Visitor
 
-    *   I am a Returning Visitor and want to find out about any new workout classes the Gym is running.
+   *   I am a Returning Visitor and want to find out about any new workout classes the Gym is running.
         
         *   There is a classes link in the navigation menu by clicking that link the user will be taken to that section.
         *   The classes section has a table with the class information and also a call to action button that is also a telephone link and upon clicking that button the user will be able to call the gym.
 
-    ![Class-section]()
+       ![Class-section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/classes.jpg)
 
-    *   I am a Returning user and want to find ways to contact the Gym.
+   *   I am a Returning user and want to find ways to contact the Gym.
 
         *   A returning user can click the contact us link in the navigation menu.
         *   A user can also go to the footer of the section that has links to contact the Gym.
         *   A phone link is set up to automatically call the gym.
         *   An email link is a setup to open your email app and autofill the gym's email address.
 
-    ![Footer-links]()
+       ![Footer-links](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/footer.jpg)
 
-    ####    Frequent Vistior
+####    Frequent Vistior
 
-    *   As a Frequent Visitor, I want to check if the Gym is running any new workout class.
-        *   The user already knows where to go by simply clicking a navigation link or scrolling down to that particular section.
+   *   As a Frequent Visitor, I want to check if the Gym is running any new workout class.
 
-    *   As a Frequent Visitor, I want to find out any new Membership offers.
+       *   The user already knows where to go by simply clicking a navigation link or scrolling down to that particular section.
+
+   *   As a Frequent Visitor, I want to find out any new Membership offers.
         *   The user can head straight to the Membership area by clicking the link or scrolling down to the page.
         *   Every Membership Card has a call to action button and a user can click that button that will redirect the user to the contact form of the Website for the user to contact the Gym.
 
