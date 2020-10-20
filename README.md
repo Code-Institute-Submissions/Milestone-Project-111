@@ -76,24 +76,24 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
  *  I am the owner of this Website. This website is to highlight the Gyms resources and facilities. I want to give out ample information about the Gym on this website so any website visitor could turn into a customer. I want feedback from the customers via Social Media platform, contact form, and email. I want the customers to be informed of all the new facilities, resources, and new classes.
 
 ####  First Time Visitor Goals
- *  As a First Time Visitor, I want to navigate the website easily.
+ *  As a First Time Vistior, I want to navigate the website easily.
 
- *   As a First Time Visitor, I want to know more about the Gym. 
+ *  As a First Time Visitor, I want to find the facilities this gym offers. 
 
- *   As a First Time Visitor, I want to find the facilities this Gym offers.
+ *  As a First Time Visitor, I want to know about the Membership and fee structure of the Gym.
 
- *  As a First Time Visitor, I want to find out any special workout classes the gym conducts.
+ *  As a First Time Visitor, I want to contact the Gym.
 
- *  As a First Time Visitor, I want to find the fee structure and the subscription plans. 
 
- *  As a First Time Visitor, I want to find out about opening hours and also the social media platforms to see the feedback of other users. 
+#### Returning Visitor Goals
+ *  I am a Returning Visitor and want to find out about any new workout classes the Gym is running.
 
-#### Returning Visitor
- *  I am a returning visitor and want to find out about any new workout classes.
+ *  I am a Returning user and want to find ways to contact the Gym.
 
- *  I am a returning visitor and want to know about the price of a class per day.
+#### Frequent Vistior Goals
+*   As a Frequent Visitor, I want to check if the Gym is running any new workout class.
 
- *  I am a returning visitor who wants to find ways to contact the Gym.
+*   As a Frequent Visitor, I want to find out any new Membership offers.
 
 ### **Project's Design Process**
 
@@ -243,11 +243,71 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
     
 ###     **Testing**
 
-####     Testing User Stories
+####  Testing User Stories from the UX Section.
 
-   *    Website Owner: All the elements, images, buttons, links, social media links on the Website works perfectly fine. 
-   *    New User: A new user can navigate the Gym in a seemless manner. The menu is anchored with all the sections of the website. The website has all the information of the Gym. The Team section, The Faciliites Section with the images, The workout classes and the timetable with a booking button, membership section with three different nmembership fee options, the contact section with a contact form with different radio buttons with different options so a users query could be dealt in a more proficient manner and the footer section with detials of Gym About us, contact section with address, email and phone n umber, the opening and closing times of the Gyms and the social media sections. All the links perfectly fine on all the devices.
-   *    Returning User: A returning user can connect the Gym via contact form, email, phone or social media platform.
+####  First Time Visitor Goals
+
+   *   As a First Time Vistior, I want to navigate the website easily.
+        
+        *   The site has been designed with a clear and easy to read navigation menu. The Navigation links are anchored to their respective sections so upon clicking any link the user will be scrolled down to that section.
+        *   The navigation menu is fixed and transparent. The user can never get lost and simply clicking on any navigation link the user will be directed to that section of the website.
+        *   The Navigation Menu sits on top of a Hero Carousel With three Slides.
+        *   Every slide has a text and a call to action button.
+        *   The user can click the button to join the Gym or can click any link to go to any section of the website.
+
+    ![Navigation-Menu]()
+
+    *   As a First Time Visitor, I want to find the facilities this gym offers.
+        
+        *   A user can simply click the facilities link on the top of the page to go to the desired section.
+        *   A user can scroll down to go to the facilities section.
+        *   The facilities section has eight cards and text at the bottom right of each card. Every card has a background image that clearly describes every facility the club has.
+
+    ![Facilities-Section]()
+
+    *   As a First Time Visitor, I want to know about the Membership and fee structure of the Gym.
+
+        *   The user can click on the membership link to go to the Membership section.
+        *   The membership section has three cards with text, a background image, and a call to action button that redirects a user to the relevant section.
+
+    ![Membership-Section]() 
+
+    *   As a First Time Visitor, I want to contact the Gym.
+
+        *   The user can click the Contact link on the navigation menu that redirects the user to the Contact Us section. The Contact Us section has a form with different options and a Send button.
+        *   The user can also scroll down to the bottom of the page to find the email, and phone number links in the footer.
+        *   The user can also join the social media platform of the gym that can be found in the footer section.
+        *   Upon clicking any social media link a new window will open and the user will be redirected to the Gym's social media platform.
+        
+    ![Contact-Us-Form]()
+
+    ####    Returning Visitor
+
+    *   I am a Returning Visitor and want to find out about any new workout classes the Gym is running.
+        
+        *   There is a classes link in the navigation menu by clicking that link the user will be taken to that section.
+        *   The classes section has a table with the class information and also a call to action button that is also a telephone link and upon clicking that button the user will be able to call the gym.
+
+    ![Class-section]()
+
+    *   I am a Returning user and want to find ways to contact the Gym.
+
+        *   A returning user can click the contact us link in the navigation menu.
+        *   A user can also go to the footer of the section that has links to contact the Gym.
+        *   A phone link is set up to automatically call the gym.
+        *   An email link is a setup to open your email app and autofill the gym's email address.
+
+    ![Footer-links]()
+
+    ####    Frequent Vistior
+
+    *   As a Frequent Visitor, I want to check if the Gym is running any new workout class.
+        *   The user already knows where to go by simply clicking a navigation link or scrolling down to that particular section.
+
+    *   As a Frequent Visitor, I want to find out any new Membership offers.
+        *   The user can head straight to the Membership area by clicking the link or scrolling down to the page.
+        *   Every Membership Card has a call to action button and a user can click that button that will redirect the user to the contact form of the Website for the user to contact the Gym.
+
 
 ####    Code Validation
 
