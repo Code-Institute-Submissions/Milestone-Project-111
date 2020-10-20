@@ -255,7 +255,7 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
         *   Every slide has a text and a call to action button.
         *   The user can click the button to join the Gym or can click any link to go to any section of the website.
 
-       ![Navigation-Menu](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/navigationMenu.jpg)
+       ![Navigation-Menu](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/navigationMenu.jpg)
 
    *   As a First Time Visitor, I want to find the facilities this gym offers.
         
@@ -263,14 +263,14 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
         *   A user can scroll down to go to the facilities section.
         *   The facilities section has eight cards and text at the bottom right of each card. Every card has a background image that clearly describes every facility the club has.
 
-       ![Facilities-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/facilisites.jpg)
+       ![Facilities-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/facilisites.jpg)
 
    *   As a First Time Visitor, I want to know about the Membership and fee structure of the Gym.
 
         *   The user can click on the membership link to go to the Membership section.
         *   The membership section has three cards with text, a background image, and a call to action button that redirects a user to the relevant section.
 
-       ![Membership-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/membership.jpg) 
+       ![Membership-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/membership.jpg) 
 
    *   As a First Time Visitor, I want to contact the Gym.
 
@@ -279,7 +279,7 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
         *   The user can also join the social media platform of the gym that can be found in the footer section.
         *   Upon clicking any social media link a new window will open and the user will be redirected to the Gym's social media platform.
         
-       ![Contact-Us-Form](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/ContactForm.jpg)
+       ![Contact-Us-Form](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/ContactForm.jpg)
 
 ####    Returning Visitor
 
@@ -288,7 +288,7 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
         *   There is a classes link in the navigation menu by clicking that link the user will be taken to that section.
         *   The classes section has a table with the class information and also a call to action button that is also a telephone link and upon clicking that button the user will be able to call the gym.
 
-       ![Class-section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/classes.jpg)
+       ![Class-section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/classes.jpg)
 
    *   I am a Returning user and want to find ways to contact the Gym.
 
@@ -297,7 +297,7 @@ This Gym website developed as a First MileStone Project for Code Institute. The 
         *   A phone link is set up to automatically call the gym.
         *   An email link is a setup to open your email app and autofill the gym's email address.
 
-       ![Footer-links](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/footer.jpg)
+       ![Footer-links](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/footer.jpg)
 
 ####    Frequent Vistior
 
