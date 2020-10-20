@@ -670,7 +670,7 @@ footer {
 
 @media only screen and (min-width:280px) and (max-width:375px) {
     .logo {
-	width: 6rem;
+	width: 8rem;
 	height: 3rem;
     }
 	.nav-menu {
@@ -769,7 +769,7 @@ footer {
 
 @media only screen and (min-width:376px) and (max-width:480px) {
     .logo {
-	width: 7rem;
+	width: 9rem;
 	height: 3rem;
     }
 	.team-image {
@@ -908,6 +908,10 @@ footer {
 /* Small Screens and Laptops */
 
 @media only screen and (min-width:769px) and (max-width:991px) {
+    .logo {
+	width: 10rem;
+	height: 3rem;
+    }
 	.team-image {
 		height: 600px;
 	}
