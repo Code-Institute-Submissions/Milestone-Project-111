@@ -908,10 +908,6 @@ footer {
 /* Small Screens and Laptops */
 
 @media only screen and (min-width:769px) and (max-width:991px) {
-    .logo {
-	width: 10rem;
-	height: 3rem;
-    }
 	.team-image {
 		height: 600px;
 	}
