@@ -7,7 +7,7 @@ body {
 	background-color: #1b1b1b;
 }
 
- 
+
 /* navbar */
 
 .logo {
@@ -266,14 +266,15 @@ body {
 
 .facilities-card {
 	border-radius: 20px;
-    border: transparent;
-    box-shadow: 5px 8px 20px #000;
+	border: transparent;
+	box-shadow: 5px 8px 20px #000;
 }
 
 .card-img {
 	border-radius: 20px;
-    border: transparent;
+	border: transparent;
 }
+
 .facilities-card-img-overlay:after {
 	content: "";
 	position: absolute;
@@ -282,8 +283,8 @@ body {
 	left: 0;
 	right: 0;
 	background: rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
-    border: transparent;
+	border-radius: 20px;
+	border: transparent;
 }
 
 .facilities-card-text {
@@ -292,12 +293,12 @@ body {
 	right: 0;
 	font-size: 1rem;
 	font-weight: 600;
-	color:antiquewhite;
-    letter-spacing: .1rem;
+	color: antiquewhite;
+	letter-spacing: .1rem;
 	text-shadow: 1px 1px #000;
 	background: #1b1b1b;
 	width: 70%;
-    border: 1px solid tomato;
+	border: 1px solid tomato;
 	box-shadow: 3px 3px 5px #000;
 	cursor: pointer;
 }
@@ -499,9 +500,9 @@ body {
 
 .form-input {
 	background: transparent;
-	border-top:transparent;
-    border-left: transparent;
-    border-right:transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
 	border-bottom: 2px solid #fff;
 	border-radius: 0;
 	transition: all .5s;
@@ -509,9 +510,9 @@ body {
 
 .form-input:focus {
 	background: transparent;
-	border-top:transparent;
-    border-left: transparent;
-    border-right:transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
 	box-shadow: none;
 	color: antiquewhite;
 	border-bottom: 2px solid tomato;
@@ -523,9 +524,9 @@ body {
 
 .form-text-area {
 	background: transparent;
-	border-top:transparent;
-    border-left: transparent;
-    border-right:transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
 	border-bottom: 2px solid #fff;
 	border-radius: 0;
 	resize: none;
@@ -534,9 +535,9 @@ body {
 
 .form-text-area:focus {
 	background: transparent;
-	border-top:transparent;
-    border-left: transparent;
-    border-right:transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
 	box-shadow: none;
 	color: antiquewhite;
 	border-bottom: 2px solid tomato;
@@ -544,10 +545,10 @@ body {
 
 .form-submit-button {
 	background: tomato;
-    font-size: 1.1rem;
+	font-size: 1.1rem;
 	color: #fff;
-    text-shadow: 1px 1px #000;
-    letter-spacing: .1rem;
+	text-shadow: 1px 1px #000;
+	letter-spacing: .1rem;
 	border-radius: 1.5rem;
 	box-shadow: 5px 8px 18px #000;
 	transition: .3s;
@@ -579,9 +580,11 @@ footer {
 	text-shadow: 2px 2px #000;
 	letter-spacing: .1rem;
 }
-.about-us:focus{
-    outline: none;
+
+.about-us:focus {
+	outline: none;
 }
+
 .about-us-par {
 	font-size: .8rem;
 }
@@ -701,9 +704,9 @@ footer {
 		width: 60%;
 		margin: auto;
 	}
-    .facilities-card-text {
-	font-size: .8rem;
-}
+	.facilities-card-text {
+		font-size: .8rem;
+	}
 	.classes-table-day {
 		font-size: 1.1rem;
 	}
@@ -778,9 +781,9 @@ footer {
 		width: 60%;
 		margin: auto;
 	}
-    .facilities-card-text {
-	font-size: .9rem;
-    }
+	.facilities-card-text {
+		font-size: .9rem;
+	}
 	th.classes-table-day {
 		padding-left: 40px;
 	}
@@ -846,10 +849,9 @@ footer {
 		width: 60%;
 		margin: auto;
 	}
-    .facilities-card-text {
-	font-size: .5rem;
-	
-}
+	.facilities-card-text {
+		font-size: .5rem;
+	}
 	th.classes-table-day {
 		padding-left: 50px;
 	}
@@ -907,10 +909,9 @@ footer {
 		font-weight: 300;
 		letter-spacing: .1rem;
 	}
-    .facilities-card-text {
-	font-size: .5rem;
-	
-}
+	.facilities-card-text {
+		font-size: .5rem;
+	}
 	.classes-title-wrap {
 		padding-left: 160px;
 	}
@@ -936,10 +937,9 @@ footer {
 	.team-image {
 		height: 700px;
 	}
-    .facilities-card-text {
-	font-size: .8rem;
-	
-}
+	.facilities-card-text {
+		font-size: .8rem;
+	}
 	.classes-title-wrap {
 		padding-left: 190px;
 	}
@@ -955,9 +955,9 @@ footer {
 	.team-image {
 		height: 800px;
 	}
-    .facilities-card-text {
-	font-size: .9rem;
-}
+	.facilities-card-text {
+		font-size: .9rem;
+	}
 	.classes-title-wrap {
 		padding-left: 220px;
 	}
@@ -970,11 +970,9 @@ footer {
 }
 
 @media only screen and (min-width:1281px) and (max-width:1370px) {
-    .facilities-card-text {
-	
-	font-size: .9rem;
-	
-}
+	.facilities-card-text {
+		font-size: .9rem;
+	}
 	.classes-title-wrap {
 		padding-left: 280px;
 	}
