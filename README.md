@@ -1,5 +1,5 @@
 # Code Institute : MileStone Project 1
-![ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/UX/mockupscreenshot.jpg)
+![ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/screenshots/mockupscreenshot.jpg)
 ### Project Name : [ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/)
 ### Developed By : Faisal Nadeem
 
@@ -154,16 +154,14 @@ I have laid out the skeleton plane for a user to clearly understands the informa
    *    The navigation system clearly indicates a user how to move around the website.
    *    The information given on the Website in the form of text blocks, images or icons clearly helps an easy user interaction.
    *    The wireframing is the most important element of the Skeleton plane. 
-Please see the Wireframes below.
 
-#### Mobile Version
-   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/mobile.jpg)  
+##### Please see the Wireframes below.
 
-#### iPad-Tablet Version
-   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/iPad-Tablet.jpg)  
+  -    [Mobile-Wireframe](/documentation/wireframes/mobile.jpg)  
 
-#### Desktop-Laptop-Large-Screens Version 
-   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/Desktop-laptop-LargeScreens.jpg)
+  -    [iPad-Tablet-Wireframe](/documentation/wireframes/iPad-Tablet.jpg)  
+
+  -    [Desktop-Tablet-Wireframe](/documentation/wireframes/Desktop-laptop-LargeScreens.jpg)
 
 #### Surface Plane
 The surface is the visual representation of the Website. It forms an interface with the colors, fonts, graphics, and icons used on the website. The Surface Plane is designed on the following questions.
@@ -242,7 +240,11 @@ Different technologies have been used in this project as stated below.
 ##### Project Icons
 
    *    [FontAwesome](https://fontawesome.com/)
-    
+
+##### Project Favicon
+
+   *    [favicon.io](https://favicon.io/)
+
 ### **Testing**
 
 #### Testing User Stories from the UX Section.
@@ -257,7 +259,7 @@ Different technologies have been used in this project as stated below.
         *   Every slide has a text and a call to action button.
         *   The user can click the button to join the Gym or can click any link to go to any section of the website.
 
-       ![Navigation-Menu](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/navigationMenu.jpg)
+       ![Navigation-Menu](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/screenshots/navigationMenu.jpg)
 
    *   As a First Time Visitor, I want to find the facilities this gym offers.
         
@@ -265,14 +267,14 @@ Different technologies have been used in this project as stated below.
         *   A user can scroll down to go to the facilities section.
         *   The facilities section has eight cards and text at the bottom right of each card. Every card has a background image that clearly describes every facility the club has.
 
-       ![Facilities-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/facilities.jpg)
+       ![Facilities-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/screenshots/facilities.jpg)
 
    *   As a First Time Visitor, I want to know about the Membership and fee structure of the Gym.
 
         *   The user can click on the membership link to go to the Membership section.
         *   The membership section has three cards with text, a background image, and a call to action button that redirects a user to the relevant section.
 
-       ![Membership-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/membership.jpg) 
+       ![Membership-Section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/screenshots/membership.jpg) 
 
    *   As a First Time Visitor, I want to contact the Gym.
 
@@ -281,7 +283,7 @@ Different technologies have been used in this project as stated below.
         *   The user can also join the social media platform of the gym that can be found in the footer section.
         *   Upon clicking any social media link a new window will open and the user will be redirected to the Gym's social media platform.
         
-       ![Contact-Us-Form](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/ContactForm.jpg)
+       ![Contact-Us-Form](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/screenshots/ContactForm.jpg)
 
 #### Returning Visitor
 
@@ -290,7 +292,7 @@ Different technologies have been used in this project as stated below.
         *   There is a classes link in the navigation menu by clicking that link the user will be taken to that section.
         *   The classes section has a table with the class information and also a call to action button that is also a telephone link and upon clicking that button the user will be able to call the gym.
 
-       ![Class-section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/classes.jpg)
+       ![Class-section](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/screenshots/classes.jpg)
 
    *   I am a Returning user and want to find ways to contact the Gym.
 
@@ -299,7 +301,7 @@ Different technologies have been used in this project as stated below.
         *   A phone link is set up to automatically call the gym.
         *   An email link is a setup to open your email app and autofill the gym's email address.
 
-       ![Footer-links](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/README/footer.jpg)
+       ![Footer-links](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/screenshots/footer.jpg)
 
 #### Frequent Vistior
 
