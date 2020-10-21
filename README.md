@@ -158,8 +158,12 @@ Please see the Wireframes below.
 
 #### Mobile Version
    ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/mobile.jpg)  
-#### Desktop-Laptop-Tablet Version 
-   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/desktop-laptop-tablet.jpg)
+
+#### iPad-Tablet Version
+   ![Mobile-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/iPad-Tablet.jpg)  
+
+#### Desktop-Laptop-Large-Screens Version 
+   ![Desktop-Tablet-Wireframe](https://github.com/faisalnadeem78/Milestone-Project-1/blob/master/documentation/UX/Desktop-laptop-LargeScreens.jpg)
 
 #### Surface Plane
 The surface is the visual representation of the Website. It forms an interface with the colors, fonts, graphics, and icons used on the website. The Surface Plane is designed on the following questions.
