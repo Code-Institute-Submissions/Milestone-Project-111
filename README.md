@@ -157,7 +157,7 @@ I have laid out the skeleton plane for a user to clearly understands the informa
 
 ##### Please see the Wireframes below.
 
-  -    [Mobile-Wireframe](/documentation/wireframes/mobile.jpg)  
+  -    [Mobile-Wireframe](/documentation/wireframes/Mobile.jpg)  
 
   -    [iPad-Tablet-Wireframe](/documentation/wireframes/iPad-Tablet.jpg)  
 
