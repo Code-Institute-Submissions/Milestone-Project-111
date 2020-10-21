@@ -11,7 +11,7 @@ body {
 /* navbar */
 
 .logo {
-    width: min(50vw, 150px);
+    width: min(30vw, 100px);
 }
 
 .nav-menu {
@@ -1044,6 +1044,10 @@ footer {
 /* Desktops and laptops */
 
 @media only screen and (min-width:1371px) and (max-width:1750px) {
+    .logo {
+        width: min(50vw, 200px);
+}
+
 	.classes-title-wrap {
 		padding-left: 310px;
 	}
@@ -1061,6 +1065,9 @@ footer {
 /* bigger screens */
 
 @media only screen and (min-width:1751px) and (max-width:1979px) {
+    .logo {
+        width: min(50vw, 200px);
+}
 	.classes-title-wrap {
 		padding-left: 380px;
 	}
@@ -1075,6 +1082,9 @@ footer {
 }
 
 @media only screen and (min-width:1980px) and (max-width:2200px) {
+    .logo {
+        width: min(50vw, 200px);
+}
 	.classes-title-wrap {
 		padding-left: 400px;
 	}
@@ -1089,6 +1099,9 @@ footer {
 }
 
 @media only screen and (min-width:2201px) and (max-width:2291px) {
+    .logo {
+        width: min(50vw, 200px);
+}
 	.classes-title-wrap {
 		padding-left: 480px;
 	}
@@ -1103,10 +1116,9 @@ footer {
 }
 
 @media only screen and (min-width:2291px) {
-	/* .logo {
-		width: 15rem;
-		height: 5rem;
-	} */
+	.logo {
+        width: min(50vw, 200px);
+}
 	.classes-title-wrap {
 		padding-left: 480px;
 	}
