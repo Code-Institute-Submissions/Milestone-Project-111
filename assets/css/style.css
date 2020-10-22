@@ -3,7 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 body {
@@ -180,9 +180,6 @@ body {
 
 /* team*/
 
-.team {
-	overflow-x: hidden;
-}
 
 .team-title {
 	font-family: "Merriweather", sans-serif;
@@ -249,9 +246,7 @@ body {
 
 /* facilities */
 
-.facilities {
-	overflow-x: hidden;
-}
+
 
 .facilities-title {
 	font-family: "Merriweather", sans-serif;
@@ -317,9 +312,7 @@ body {
 
 /* Classes */
 
-.classes {
-	overflow-x: hidden;
-}
+
 
 .classes-title {
 	font-family: "Merriweather", sans-serif;
@@ -402,9 +395,7 @@ body {
 
 /* Membership */
 
-.membership {
-	overflow-x: hidden;
-}
+
 
 .membership-title {
 	font-family: "Merriweather", sans-serif;
@@ -498,7 +489,7 @@ body {
 
 .contact {
 	background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)50%, transparent 50%), url(../images/contactform.jpg) no-repeat top center /cover;
-	overflow-x: hidden;
+	
 }
 
 .contact-title {
