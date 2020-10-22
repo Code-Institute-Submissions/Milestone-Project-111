@@ -41,7 +41,7 @@
     *   [Project Framework](#Project-framework)
     *   [Project Fonts](#Project-Fonts)
     *   [Project Icons](#Project-Icons)
-    *   [Photos & Images](#Photos-Images)
+    *   [Photos](#Photos)
     *   [Coding Tips & Tricks](Coding-Tips-Tricks)
     *   [Slack Group](#Slack-Group)
 
@@ -161,7 +161,7 @@ I have laid out the skeleton plane for a user to clearly understands the informa
 
   -    [iPad-Tablet-Wireframe](/documentation/wireframes/iPad-Tablet.jpg)  
 
-  -    [Desktop-Tablet-Wireframe](/documentation/wireframes/Desktop-laptop-LargeScreens.jpg)
+  -    [Desktop-Laptop-LargeScreenst-Wireframe](/documentation/wireframes/Desktop-laptop-LargeScreens.jpg)
 
 #### Surface Plane
 The surface is the visual representation of the Website. It forms an interface with the colors, fonts, graphics, and icons used on the website. The Surface Plane is designed on the following questions.
@@ -371,10 +371,10 @@ The credits go to the following.
 
    *    The project concept was taken from Code Institute's First Milestone Project Ideas.
 
-#### Photos & Images
+#### Photos
 
    *    [Unsplash](https://unsplash.com/)
-   *    [Pngtree](https://pngtree.com/)
+   *    [Pexels](https://www.pexels.com/)
     
 #### Coding Tips & Tricks
 
@@ -386,8 +386,7 @@ The credits go to the following.
     
 ###  Acknowledgements
    
-   *    I would like to acknowledge my mentor Aaron Sinnott for giving me advice about the project.
- 
+   *    I would like to thank my mentor Aaron Sinnott for giving me advice about the project.
 
  
 

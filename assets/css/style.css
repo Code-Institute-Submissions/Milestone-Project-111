@@ -1,5 +1,8 @@
 /* Resetting of margin and padding of the website, font-family added to the body text and background color added */
-
+*{
+    padding: 0;
+    margin:0;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -17,6 +20,7 @@ body {
 
 .nav-menu {
 	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5));
+    
 }
 
 .nav-button:focus {
@@ -176,7 +180,9 @@ body {
 
 
 /* team*/
-
+.team{
+    overflow-x: hidden;
+}
 .team-title {
 	font-family: "Merriweather", sans-serif;
 	color: tomato;
@@ -241,7 +247,9 @@ body {
 
 
 /* facilities */
-
+.facilities{
+    overflow-x: hidden;
+}
 .facilities-title {
 	font-family: "Merriweather", sans-serif;
 	font-size: 2.5rem;
@@ -306,6 +314,9 @@ body {
 
 /* Classes */
 
+.classes{
+    overflow-x: hidden;
+}
 .classes-title {
 	font-family: "Merriweather", sans-serif;
 	color: tomato;
@@ -386,6 +397,9 @@ body {
 
 
 /* Membership */
+.membership{
+    overflow-x: hidden;
+}
 
 .membership-title {
 	font-family: "Merriweather", sans-serif;
@@ -479,6 +493,7 @@ body {
 
 .contact {
 	background: linear-gradient(105deg, rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)50%, transparent 50%), url(../images/contactform.jpg) no-repeat top center /cover;
+    overflow-x: hidden;
 }
 
 .contact-title {
