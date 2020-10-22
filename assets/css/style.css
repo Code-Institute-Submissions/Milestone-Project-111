@@ -5,14 +5,14 @@ body {
 	padding: 0;
 	font-family: "Raleway", sans-serif;
 	background-color: #1b1b1b;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 
 /* navbar */
 
 .logo {
-    width: min(50vw, 100px);
+	width: min(50vw, 100px);
 }
 
 .nav-menu {
@@ -225,7 +225,7 @@ body {
 	object-fit: cover;
 	object-position: center center;
 	border-radius: 20px;
-    box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
+	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
 	/* box-shadow: 5px 6px 7px #000; */
 }
 
@@ -264,7 +264,7 @@ body {
 .facilities-card {
 	border-radius: 20px;
 	border: transparent;
-    box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
+	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
 	/* box-shadow: 5px 8px 20px #000; */
 }
 
@@ -329,10 +329,10 @@ body {
 	background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../images/classestableimage.jpg);
 	background-position: center;
 	background-size: contain;
-     box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
+	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
 	/* box-shadow: 2px 3px 10px #000; */
-    table-layout: fixed;
-    width: 100%;
+	table-layout: fixed;
+	width: 100%;
 }
 
 .classes-table td,
@@ -408,21 +408,21 @@ body {
 
 .membership-card-1 {
 	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(../images/membershipimage1.jpg) no-repeat center /cover;
-	 box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
+	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
 	color: white;
 	border-radius: 20px;
 }
 
 .membership-card-2 {
 	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/membershipimage2.jpg) no-repeat center /cover;
-	 box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
+	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
 	color: white;
 	border-radius: 20px;
 }
 
 .membership-card-3 {
 	background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(../images/membershipimage3.jpg) no-repeat center /cover;
-	 box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
+	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
 	color: white;
 	border-radius: 20px;
 }
@@ -786,7 +786,6 @@ footer {
 	.facilities-card-text {
 		font-size: .9rem;
 	}
-	
 	.classes-booking-btn {
 		text-decoration: none;
 		border: 2px solid tomato;
@@ -797,7 +796,6 @@ footer {
 		cursor: pointer;
 		margin-bottom: 2rem;
 	}
-	
 	.membership-card-button {
 		background: tomato;
 		font-size: .9rem;
@@ -851,7 +849,6 @@ footer {
 	.facilities-card-text {
 		font-size: .5rem;
 	}
-	
 	.classes-booking-btn {
 		text-decoration: none;
 		border: 2px solid tomato;
@@ -862,7 +859,6 @@ footer {
 		cursor: pointer;
 		margin-bottom: 2rem;
 	}
-	
 	.membership-card-button {
 		background: tomato;
 		font-size: .9rem;
@@ -908,7 +904,6 @@ footer {
 	.facilities-card-text {
 		font-size: .5rem;
 	}
-	
 	.contact {
 		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
 	}
@@ -925,9 +920,9 @@ footer {
 /* ipad Pro 11 and laptops */
 
 @media only screen and (min-width:992px) and (max-width:1024px) {
-     .logo {
-        width: min(50vw, 150px);
-}
+	.logo {
+		width: min(50vw, 150px);
+	}
 	.team-image {
 		max-width: 100%;
 		height: 600px;
@@ -943,7 +938,6 @@ footer {
 	.facilities-card-text {
 		font-size: .8rem;
 	}
-	
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -958,9 +952,9 @@ footer {
 /* ipad PRO 12.9 and laptops */
 
 @media only screen and (min-width:1025px) and (max-width:1280px) {
-    .logo {
-        width: min(50vw, 150px);
-}
+	.logo {
+		width: min(50vw, 150px);
+	}
 	.team-image {
 		height: 700px;
 	}
@@ -975,7 +969,6 @@ footer {
 	.facilities-card-text {
 		font-size: .9rem;
 	}
-	
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -990,10 +983,10 @@ footer {
 /* laptops */
 
 @media only screen and (min-width:1281px) and (max-width:1370px) {
-    .logo {
-        width: min(50vw, 200px);
-}
-    .team-image {
+	.logo {
+		width: min(50vw, 200px);
+	}
+	.team-image {
 		max-width: 100%;
 		height: 700px;
 	}
@@ -1008,7 +1001,6 @@ footer {
 	.facilities-card-text {
 		font-size: .9rem;
 	}
-	
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -1023,11 +1015,9 @@ footer {
 /* Desktops and laptops */
 
 @media only screen and (min-width:1371px) and (max-width:1750px) {
-    .logo {
-        width: min(50vw, 200px);
-}
-
-	
+	.logo {
+		width: min(50vw, 200px);
+	}
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -1042,10 +1032,9 @@ footer {
 /* bigger screens */
 
 @media only screen and (min-width:1751px) and (max-width:1979px) {
-    .logo {
-        width: min(50vw, 200px);
-}
-	
+	.logo {
+		width: min(50vw, 200px);
+	}
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -1057,10 +1046,9 @@ footer {
 }
 
 @media only screen and (min-width:1980px) and (max-width:2200px) {
-    .logo {
-        width: min(50vw, 200px);
-}
-	
+	.logo {
+		width: min(50vw, 200px);
+	}
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -1072,10 +1060,9 @@ footer {
 }
 
 @media only screen and (min-width:2201px) and (max-width:2291px) {
-    .logo {
-        width: min(50vw, 200px);
-}
-	
+	.logo {
+		width: min(50vw, 200px);
+	}
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
@@ -1088,8 +1075,8 @@ footer {
 
 @media only screen and (min-width:2291px) {
 	.logo {
-        width: min(50vw, 200px);
-}
+		width: min(50vw, 200px);
+	}
 	th.classes-table-day {
 		text-align: left;
 		padding-left: 30px;
