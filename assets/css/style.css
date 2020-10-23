@@ -3,6 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
+    /* To remove the horizontal scroll / It wouldnt go away if applied to the body section */
 	overflow-x: hidden;
 }
 
@@ -11,7 +12,10 @@ body {
 	background-color: #1b1b1b;
 }
 
-
+/*To remove a small scroll bar appeared on h1, h2 ,  h3 , h4 headings on different screen size */
+h1 , h2 , h3 , h4, h5{
+    overflow: hidden;
+}
 /* navbar */
 
 .logo {
@@ -229,8 +233,8 @@ body {
 	object-fit: cover;
 	object-position: center center;
 	border-radius: 20px;
-	box-shadow: 0px 7px 8px #000, 0px -7px 8px #000;
-	/* box-shadow: 5px 6px 7px #000; */
+	/* box-shadow: 0px 7px 8px #000, 0px -7px 8px #000; */
+	box-shadow: 5px 6px 7px #000;
 }
 
 .underline-section {
