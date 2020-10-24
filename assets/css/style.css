@@ -4,10 +4,11 @@
 	padding: 0;
 	margin: 0;
     /* To remove the horizontal scroll / It wouldnt go away if applied to the body section */
-	overflow-x: hidden;
+	
 }
 
 body {
+    /* overflow-x: hidden; */
 	font-family: "Raleway", sans-serif;
 	background-color: #1b1b1b;
 }
@@ -587,6 +588,7 @@ h1 , h2 , h3 , h4, h5{
 
 footer {
 	background: #1b1b1b;
+    overflow-x: hidden;
 }
 
 .footer-headings {
