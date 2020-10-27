@@ -121,7 +121,7 @@ In this Plane of the UX Process, I have designed this website based on the strat
    *    What Content is provided on this Website?
    *    What functionalities are offered on this Website for a user to achieve his/her website visit?
    *    Does the Website has ample information for a user?
-   *     Does the Website has specific features and elements to compete with others in the same business?
+   *    Does the Website has specific features and elements to compete with others in the same business?
 
 All the above questions have been answered in the development of this Website. The website provides all the specific features and functions for a user to fully achieve his/her goal.
 
@@ -342,6 +342,7 @@ Different technologies have been used in this project as stated below.
     
 #### Issues Found
    *    There was an issue found after deploying the project, the images weren't showing up so I changed the file paths and it corrected that issue.
+   *    The li (timing) in the footer would turn into telephone link on iPhones and iPads. The issue was resolved by adding a Unicode Zero Width Space character (&#8203) in the middle of the value. 
 
 ###     **Deployment**
 
@@ -375,6 +376,7 @@ The credits go to the following.
 
    *    [Unsplash](https://unsplash.com/)
    *    [Pexels](https://www.pexels.com/)
+   *    [Freepik](https://www.freepik.com/)
     
 #### Coding Tips & Tricks
 
