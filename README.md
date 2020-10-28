@@ -1,5 +1,5 @@
 # Code Institute : MileStone Project 1
-![ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/screenshots/mockupscreenshot.jpg)
+![ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/documentation/screenshots/mockupscreenshot.png)
 ### Project Name : [ChiseledFit](https://faisalnadeem78.github.io/Milestone-Project-1/)
 ### Developed By : Faisal Nadeem
 
