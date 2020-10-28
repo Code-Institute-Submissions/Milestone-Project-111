@@ -741,7 +741,7 @@ footer {
 		border-radius: 1.5rem;
 	}
 	.contact {
-		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+		background: linear-gradient( rgba(33, 34, 36, 0.7), rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
 	}
 	.contact-title,
 	.contact-par {
@@ -804,7 +804,7 @@ footer {
 		border-radius: 1.5rem;
 	}
 	.contact {
-		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+		background: linear-gradient( rgba(33, 34, 36, 0.7), rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
 	}
 	.contact-title,
 	.contact-par {
@@ -866,7 +866,7 @@ footer {
 		border-radius: 1.5rem;
 	}
 	.contact {
-		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+		background: linear-gradient( rgba(33, 34, 36, 0.7), rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
 	}
 	.contact-title,
 	.contact-par {
@@ -900,7 +900,7 @@ footer {
 		font-size: .5rem;
 	}
 	.contact {
-		background: linear-gradient( rgba(33, 34, 36, 0.7)0%, rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
+		background: linear-gradient( rgba(33, 34, 36, 0.7), rgba(29, 31, 31, 0.8)), url(../images/contactform.jpg) no-repeat top center /cover;
 	}
 	.form-submit-button {
 		width: 50%;
